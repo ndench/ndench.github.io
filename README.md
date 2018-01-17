@@ -13,3 +13,7 @@ Full UTF8 support with MySQL, RDS and Symfony
 * Setting RDS parameter group: http://aprogrammers.blogspot.com.au/2014/12/utf8mb4-character-set-in-amazon-rds.html
 * Manually connecting to the DB: https://stackoverflow.com/q/6787824/1393498
 
+Destroying RDS instance with Terraform
+
+* Apply `skip_final_snapshot = true` before destroying: https://github.com/terraform-providers/terraform-provider-aws/issues/92
+* Or specify `final_snapshot_identifier`
