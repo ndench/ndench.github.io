@@ -17,3 +17,14 @@ Destroying RDS instance with Terraform
 
 * Apply `skip_final_snapshot = true` before destroying: https://github.com/terraform-providers/terraform-provider-aws/issues/92
 * Or specify `final_snapshot_identifier`
+
+Symfony Capistrano Example
+
+* https://github.com/ndench/symfony-capistrano-circleci-example
+
+Symfony Deployer CircleCI with build artifacts
+
+* Create artifact: https://circleci.com/docs/2.0/artifacts/
+* Accessing artifact: https://circleci.com/docs/api/v1-reference/#build-artifacts
+* Deploying PHP with Deployer.org: https://www.sitepoint.com/deploying-php-applications-with-deployer/
+* Overriding deploy:update_code: https://deployer.org/docs/flow#deploy:update_code
