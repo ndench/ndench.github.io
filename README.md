@@ -38,3 +38,8 @@ Parsing flags in bash
 
 * https://rsalveti.wordpress.com/2007/04/03/bash-parsing-arguments-with-getopts/
 * https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
+
+Using apt-cacher-ng with packer
+
+* https://www.tecmint.com/apt-cache-server-in-ubuntu/
+* https://blog.packagecloud.io/eng/2015/05/05/using-apt-cacher-ng-with-ssl-tls/
