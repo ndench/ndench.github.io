@@ -1,6 +1,7 @@
 ---
 title: How to setup a Jekyll powered GitHub Pages blog
 categories: jekyll
+tags: jekyll github github-pages
 ---
 
 I finally got around to creating a Jekyll powered blog running on GitHub pages, and it was much 
