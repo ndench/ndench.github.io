@@ -131,9 +131,7 @@ resource "aws_db_parameter_group" "utf8mb4" {
 
 resource "aws_db_instance" "primary" {
   ...
-
   parameter_group_name = "utf8mb4"
-
   ...
 }
 
@@ -173,5 +171,5 @@ cannot be changed, but don't break anything.
 * [Symfony docs for Doctrine config](https://symfony.com/doc/3.3/doctrine.html)
 * [MySQL utf8mb4 support in RDS](https://aprogrammers.blogspot.com.au/2014/12/utf8mb4-character-set-in-amazon-rds.html)
 * [Connecting to a database with utf8mb4](https://stackoverflow.com/q/6787824/1393498)
-* [Difference between character set and collation](https://stackoverflow.com/questions/341273/what-does-character-set-and-collation-mean-exactly)
-* [character_set_server vs default_character_set](https://stackoverflow.com/questions/24150997/character-set-server-vs-default-character-set-in-mysql)
+* [Difference between character set and collation](https://stackoverflow.com/q/341273/1393498)
+* [character_set_server vs default_character_set](https://stackoverflow.com/q/24150997/1393498)

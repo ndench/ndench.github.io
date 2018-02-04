@@ -2,18 +2,6 @@
 
 TODO:
 
-Full UTF8 support with MySQL, RDS and Symfony
-
-* Convert existing database to utf8mb4: https://mathiasbynens.be/notes/mysql-utf8mb4
-* Set doctrine charset and default table options: https://symfony.com/doc/3.3/doctrine.html
-* Setting RDS parameter group: http://aprogrammers.blogspot.com.au/2014/12/utf8mb4-character-set-in-amazon-rds.html
-* Manually connecting to the DB: https://stackoverflow.com/q/6787824/1393498
-
-Destroying RDS instance with Terraform
-
-* Apply `skip_final_snapshot = true` before destroying: https://github.com/terraform-providers/terraform-provider-aws/issues/92
-* Or specify `final_snapshot_identifier`
-
 Symfony Capistrano Example
 
 * https://github.com/ndench/symfony-capistrano-circleci-example
@@ -35,7 +23,4 @@ Parsing flags in bash
 * https://rsalveti.wordpress.com/2007/04/03/bash-parsing-arguments-with-getopts/
 * https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
 
-Using apt-cacher-ng with packer
-
-* https://www.tecmint.com/apt-cache-server-in-ubuntu/
-* https://blog.packagecloud.io/eng/2015/05/05/using-apt-cacher-ng-with-ssl-tls/
+Using S3 backend with DynamoDB for Terraform
