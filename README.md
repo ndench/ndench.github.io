@@ -2,10 +2,6 @@
 
 TODO:
 
-Set up Jekyll and GitHub pages:
-* https://jekyllrb.com/
-* https://pages.github.com/
-
 Full UTF8 support with MySQL, RDS and Symfony
 
 * Convert existing database to utf8mb4: https://mathiasbynens.be/notes/mysql-utf8mb4
