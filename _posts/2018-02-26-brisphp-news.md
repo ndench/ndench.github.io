@@ -296,6 +296,13 @@ are composer metapackages which bundle several dependencies together so you can
 install them at once. An example is the `orm` pack that I mentioned above. 
 which gives you the Doctrine core, DocrineBundle and the DoctrineMigrationsBundle.
 
+#### Webpack Encore ####
+
+[Webpack encore](https://symfony.com/doc/current/frontend.html) is a pure JS
+library you can add to Symfony 4. It gives you a simple and opinionated way to
+build Webpack config files and integrate your JS frontend with the Symfony
+backend.
+
 ### Silex end of life ###
 
 Another change that Symfony 4 made is that it has killed Silex, with Fabien 
@@ -338,16 +345,51 @@ logging component. Which allow you to configure 'stacks' and separate handlers
 to send log messages to different channels.
 
 
+## Random things I thought were cool ##
 
-* Comparing ORM libraries
+* A really in depth look at comparing different ORM libraries in PHP:
+[Objectively comparing ORM/DAL libraries](https://medium.com/@romaninsh/objectively-comparing-orm-dal-libraries-e4f095de80b5)
 
-## Random things ##
+* The [PHP Security Advent Calendar](https://blog.ripstech.com/2017/php-security-advent-calendar/)
+is a set of 24 code snippets you're presented with and have to find the 
+security vulnerability.
 
-* PHP security advent calander
-* TLDR man pages
-* Secure PHP webserver
-* Q&A with Taylor Otwell
-* How to do open source
-* PHPStorm tips
-* PHP-PM
-* Harvesting CC numbers
+* Ever thought the MAN pages were too hard to understand, or just took too long 
+to read? Check out the [TL;DR man pages](https://laravel-news.com/tldr-pages).
+A cli program which summarises the man pages for you.
+
+* A really great andin depth look at build secure PHP web applications by
+[Paragon Initiative](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software).
+
+* Want to "level up your phpstorm game"? Check out (phpstorm.tips)[http://phpstorm.tips]. 
+A collection of small tips and tricks you can use to get better at PhpStorm.
+
+* I've been sending through a few PR's to open source repositories lately and I
+stumbled across [this post](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
+by Jeff Geerling about what he looks for in a PR to one of his open source
+repositories. Also [another post](https://mattstauffer.com/blog/how-to-contribute-to-an-open-source-github-project-using-your-own-fork/)
+(which is a little old), which walks you through your first open source
+contribution.
+
+* The Vancouver PHP user group recently had 
+[Q&A session](https://murze.be/vancouver-phps-qa-session-with-taylor-otwell)
+with Taylor Otwell.
+
+* [PHP-PM](https://symfony.fi/entry/php-pm-1-0-launches-with-official-docker-images)
+is a recently released alternative to PHP-FPM, written entirely in PHP. It 
+looks pretty interesting and I'd like to play with it one day.
+
+* I always like reading about how to write code better. Recently I've foind these
+articles about [paying down technical debt](https://blog.intracto.com/paying-technical-debt-how-to-rescue-legacy-code-through-refactoring)
+and [modular application architecture](https://www.goetas.com/blog/modular-application-architecture-intro/)
+which are both pretty good.
+
+* I found [this post](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
+particlarly entertaining. The author describes how easy it would be to harvest
+credit card numbers from a large portion of sites on the internet. Just by 
+creating a dodgey npm package and getting other popular packages to depend on 
+it.
+
+* While writing this blog post, I also found (3v4l.org)[https://3v4l.org], which 
+allows you run PHP code against almost every version of PHP ever released in one
+go.
