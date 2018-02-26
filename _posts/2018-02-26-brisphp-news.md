@@ -210,6 +210,15 @@ security updates until December this year.
 December next year.
 * 7.2 has active support until December next year
 
+### PSR-15 was released ###
+
+[PSR-15](https://www.php-fig.org/psr/psr-15/) defines common interfaces for
+server request handlers and HTTP middleware. Which means that if you're using
+a framework that works with PSR-15 then you can swap out you request handlers
+and middleware with drop in replacements. 
+[This article](https://www.php-fig.org/psr/psr-15/) has a good overview of what
+PSR-15 does and why.
+
 ### PHP GitHub stats ###
 
 Marcel Pociot wrote a great blog post:
@@ -229,6 +238,16 @@ And finally, Marcel took the top 600 projects projects above, and determined
 which other packages they depend on the most:
 
 ![Most used dependencies]({{ "/assets/most-used-php-dependencies-2017.png" }})
+
+### Xdebug 2.6 ###
+
+Xdebug 2.6 has [been released](https://derickrethans.nl/xdebug-26.html) and it
+has a few cool new things:
+
+* It can now provide insight into the PHP garbage collector
+* The profiler collects information about memory usage and attaches a header to
+the response to tell you the location of file it's profiling to.
+* It can send errors and warning through to the IDE now
 
 
 ## Framework news ##
@@ -298,7 +317,7 @@ which gives you the Doctrine core, DocrineBundle and the DoctrineMigrationsBundl
 
 #### Webpack Encore ####
 
-[Webpack encore](https://symfony.com/doc/current/frontend.html) is a pure JS
+[Webpack Encore](https://symfony.com/doc/current/frontend.html) is a pure JS
 library you can add to Symfony 4. It gives you a simple and opinionated way to
 build Webpack config files and integrate your JS frontend with the Symfony
 backend.
@@ -317,15 +336,15 @@ There's a great new version of Laravel out as well, again there have been
 [cool new features](https://medium.com/pine-code/neat-features-in-laravel-from-2017-736096bdf5d2)
 so here's a summary:
 
-#### New blade directives ####
+#### New Blade directives ####
 
 There have been some [new additions](https://laravel-news.com/new-blade-directives-laravel-5-6)
-to blade, including a `@csrf` and `@method` directive which you can attach to
+to Blade, including a `@csrf` and `@method` directive which you can attach to
 forms to give you easy CSRF protection and use methods other than GET and POST
 for HTML forms (it does this little bit of magic with a hidden `method` form 
 field).
 
-#### No more artisan optimize ####
+#### No more Artisan optimize ####
 
 The optimize command is [no longer required](https://laravel-news.com/laravel-5-6-removes-artisan-optimize)
 since there have been massive improvements to the PHP opcache since the release
@@ -358,10 +377,10 @@ security vulnerability.
 to read? Check out the [TL;DR man pages](https://laravel-news.com/tldr-pages).
 A cli program which summarises the man pages for you.
 
-* A really great andin depth look at build secure PHP web applications by
+* A really great and in depth look at build secure PHP web applications by
 [Paragon Initiative](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software).
 
-* Want to "level up your phpstorm game"? Check out (phpstorm.tips)[http://phpstorm.tips]. 
+* Want to "level up your PhpStorm game"? Check out [phpstorm.tips](http://phpstorm.tips). 
 A collection of small tips and tricks you can use to get better at PhpStorm.
 
 * I've been sending through a few PR's to open source repositories lately and I
@@ -387,9 +406,19 @@ which are both pretty good.
 * I found [this post](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 particlarly entertaining. The author describes how easy it would be to harvest
 credit card numbers from a large portion of sites on the internet. Just by 
-creating a dodgey npm package and getting other popular packages to depend on 
+creating a dodgy npm package and getting other popular packages to depend on 
 it.
 
-* While writing this blog post, I also found (3v4l.org)[https://3v4l.org], which 
+* While writing this blog post, I also found [3v4l.org](https://3v4l.org), which 
 allows you run PHP code against almost every version of PHP ever released in one
 go.
+
+* A description of [setting up a Makefile](https://localheinz.com/blog/2018/01/24/makefile-for-lazy-developers/)
+for PHP application. I love Makefiles, they're quick and easy and allow all the
+commands you need to run in your project to come through a common interface.
+
+* A super in depth look at [how sessions work in PHP](https://www.phparch.com/2018/01/php-sessions-in-depth/).
+
+* An [explanation of CQRS](https://matthiasnoback.nl/2018/01/simple-cqrs-reduce-coupling-allow-the-model-to-evolve/)
+which keeps popping up everywhere but until now I've never really understood it.
+
