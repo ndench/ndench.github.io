@@ -30,3 +30,15 @@ Setting up x keyboard
 * https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
 
 Setting up phpqa
+
+Setting up https redirects for ELB/ALB (and health checks)
+
+* https://oanhnn.github.io/2016-02-29/how-to-force-https-behind-aws-elb.html
+* http://fuzzyblog.io/blog/aws/2017/02/03/redirecting-http-to-https-with-aws-and-elb.html
+* https://serverfault.com/q/578984/243144
+
+Setting up CodeDeploy, CodeBuild and CodePipeline
+
+* https://stackoverflow.com/q/32635428/1393498
+* https://stackoverflow.com/q/26903206/1393498
+* AWS docs for CodeDeploy, and CodeDeploy with Cloudwatch Logs
