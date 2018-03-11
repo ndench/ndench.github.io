@@ -138,6 +138,7 @@ defaults:
       path: _drafts
     values:
       layout: post
+      comments: false
 
 collections:
   drafts:
