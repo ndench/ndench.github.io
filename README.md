@@ -36,9 +36,16 @@ Setting up https redirects for ELB/ALB (and health checks)
 * https://oanhnn.github.io/2016-02-29/how-to-force-https-behind-aws-elb.html
 * http://fuzzyblog.io/blog/aws/2017/02/03/redirecting-http-to-https-with-aws-and-elb.html
 * https://serverfault.com/q/578984/243144
+* with basic auth: https://stackoverflow.com/questions/35342049/nginx-reject-request-if-header-not-present
+    * https://stackoverflow.com/q/23716588/1393498
 
 Setting up CodeDeploy, CodeBuild and CodePipeline
 
 * https://stackoverflow.com/q/32635428/1393498
 * https://stackoverflow.com/q/26903206/1393498
 * AWS docs for CodeDeploy, and CodeDeploy with Cloudwatch Logs
+
+Packer run builder multiple times
+
+* Need to preprocess the json https://programminghistorian.org/lessons/json-and-jq
+* https://stackoverflow.com/q/41147141/1393498

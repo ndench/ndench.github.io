@@ -54,9 +54,11 @@ Example:
 
 $obj = new \stdClass();
 $obj->test = 1;
-//$obj->'1' = 2; // syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING)
+// syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING)
+//$obj->'1' = 2;
 $obj->{'1'} = 2;
-//$obj->2 = 2;    // syntax error, unexpected '2' (T_LNUMBER)
+// syntax error, unexpected '2' (T_LNUMBER)
+//$obj->2 = 2;
 $obj->{2} = 3;
 
 var_dump($obj);
@@ -95,7 +97,7 @@ var_dump($obj->test);
 // int(1)
 
 var_dump($obj->{"1"});
-// Notice: Undefined property: stdClass::$1 in /in/AkcMu on line 9
+// Notice: Undefined property: stdClass::$1
 // NULL
 ```
 
@@ -228,16 +230,16 @@ in which he shows some cool stats for PHP repositories on GitHub.
 Here we can see the PHP repositories that received the most stars on GitHub last
 year:
 
-![Most starred repositories]({{ "/assets/most-starred-php-repositories-2017.png" }})
+![Most starred repositories]({{ "/assets/images/most-starred-php-repositories-2017.png" }})
 
 And here's the PHP repositories that had the most contributions last year:
 
-![Most contributed repositories]({{ "/assets/most-contributed-php-repositories-2017.png" }})
+![Most contributed repositories]({{ "/assets/images/most-contributed-php-repositories-2017.png" }})
 
 And finally, Marcel took the top 600 projects projects above, and determined
 which other packages they depend on the most:
 
-![Most used dependencies]({{ "/assets/most-used-php-dependencies-2017.png" }})
+![Most used dependencies]({{ "/assets/images/most-used-php-dependencies-2017.png" }})
 
 ### Xdebug 2.6 ###
 

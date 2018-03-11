@@ -1,6 +1,6 @@
 title: Tech Notes
 description: >-
-  This is where I brain dump anything I learn about programming, devops and anything tech.
+  This is where I brain dump anything I learn about programming, devops and general tech.
 baseurl: ""
 url: "https://ndench.github.io"
 google_analytics: UA-113477794-1
@@ -13,6 +13,10 @@ twitter_username: nathandench
 github_username: ndench
 linkedin_username: nathandench
 
+# Disqus comments
+disqus:
+  shortname: ndench
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -21,7 +25,7 @@ plugins:
   - jekyll-sitemap
 
 defaults:
-    - scope:
-        path: _posts
-      values:
-        layout: post
+  - scope:
+      path: _posts
+    values:
+      layout: post
