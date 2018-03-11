@@ -16,7 +16,7 @@ Symfony Deployer CircleCI with build artifacts
 Slack Webhook in PHP
 
 * https://github.com/tototoshi/php-slack-webhook/blob/master/src/SlackWebhook.php
-* https://api.slack.com/incoming-webhooks#advanced_message_formatting<Paste>
+* https://api.slack.com/incoming-webhooks#advanced_message_formatting
 
 Parsing flags in bash
 
@@ -44,8 +44,3 @@ Setting up CodeDeploy, CodeBuild and CodePipeline
 * https://stackoverflow.com/q/32635428/1393498
 * https://stackoverflow.com/q/26903206/1393498
 * AWS docs for CodeDeploy, and CodeDeploy with Cloudwatch Logs
-
-Packer run builder multiple times
-
-* Need to preprocess the json https://programminghistorian.org/lessons/json-and-jq
-* https://stackoverflow.com/q/41147141/1393498

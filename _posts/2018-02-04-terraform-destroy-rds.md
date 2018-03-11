@@ -1,7 +1,7 @@
 ---
 title: Terraform refuses to destroy RDS instance without a snapshot
 categories: terraform
-tags: rds terraform
+tags: rds terraform infra
 ---
 
 Recently I created an RDS instance for testing using Terraform. Since it's just
