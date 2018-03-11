@@ -184,6 +184,24 @@ find, but the `/drafts` page is not linked to from any other page, so readers
 won't just stumble across it. Unless of course they've read this blog post ;).
 
 
+## Update II
+
+Some friends have been bugging me to add an email subscription to my blog.
+After digging around it turns out to be super easy with Mailchimp, all
+I needed to do was:
+
+* Sign up for a free mailchimp account
+* Create a 'list' (this will likely happen automatically during the sign up process)
+* Go to my 'list' and click 'signup forms' -> 'embedded forms'
+* Customise the form how I wanted
+* Overwrite `/_includes/footer.html` from my theme and paste in the given HTML
+
+I also customised the thank you page:
+* Go to my 'list' and click 'signup forms' -> 'form builder'
+* Choose 'confirmation thank you page'
+* Customise however much you want
+
+
 ## Pages that helped me ##
 
 * [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/)
@@ -195,3 +213,6 @@ won't just stumble across it. Unless of course they've read this blog post ;).
 * [Jekyll drafts](https://jekyllrb.com/docs/drafts/)
 * [Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
 * [Explayn like I'm five: Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
+* [Jekyll subscribe form](https://blog.webjeda.com/jekyll-subscribe-form/)
+* [Add mailchimp subscribe form to Jekyll blog](http://www.controlfd.com/2016/05/16/add-a-mailchimp-subscriber-form-to-your-jekyll-blog.html)
+* [Mailchimp custom thank you page](https://kb.mailchimp.com/lists/signup-forms/design-and-host-your-own-thank-you-pages)
