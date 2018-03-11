@@ -29,3 +29,11 @@ defaults:
       path: _posts
     values:
       layout: post
+  - scope:
+      path: _drafts
+    values:
+      layout: post
+
+collections:
+  drafts:
+    output: true

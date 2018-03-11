@@ -115,6 +115,74 @@ defaults:
         layout: post
 ```
 
+## Update
+
+Sometimes I want to be able to write a post that I can show someone for
+proofreading, but not have it available "live". After looking around I found a
+great way to implement drafs. The first way is to just add a new markdown file
+under `/_drafts` as shown in the [jekyll docs](https://jekyllrb.com/docs/drafts/).
+The problem with this is that it's only visible locally when you run 
+`jekyll build` or `jekyll serve` with the `--drafts` option, so it's not 
+visible live.
+
+[This post](https://ben.balter.com/2015/02/20/jekyll-collections/) gives a 
+great overviwe of Jekyll collections, which I modified to display drafts:
+
+```yaml
+# /_config.yml
+...
+
+defaults:
+...
+ - scope:
+      path: _drafts
+    values:
+      layout: post
+
+collections:
+  drafts:
+    output: true
+
+...
+```
+
+This makes all markdown files under `/_drafts` be build without the `--drafts`
+flag, gives them the default layout of `post`, and makes them accessible via 
+the `site.drafts` variable. I then created a `/drafts.md` file, which is almost
+a copy-paste of the minima theme's `/_layouts/home.html`:
+
+{% raw %}
+```html
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">Drafts</h1>
+
+  {%- if site.drafts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.drafts -%}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
+```
+{% endraw %}
+
+And now I have a `/drafts` page that lists all my drafts to make them easy to
+find, but the `/drafts` page is not linked to from any other page, so readers
+won't just stumble across it. Unless of course they've read this blog post ;).
+
+
 ## Pages that helped me ##
 
 * [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/)
@@ -123,3 +191,6 @@ defaults:
 * [Jekyll front matter configuration](https://jekyllrb.com/docs/frontmatter/)
 * [Newbie guide to setting up Jekyll and GitHub pages](http://jmcglone.com/guides/github-pages/)
 * [Jekyll themes on GitHub](https://help.github.com/articles/about-jekyll-themes-on-github/)
+* [Jekyll drafts](https://jekyllrb.com/docs/drafts/)
+* [Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
+* [Explayn like I'm five: Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
