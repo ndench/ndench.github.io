@@ -355,7 +355,7 @@ of 7.0.
 #### Dynamic rate limiting ####
 
 Previously in Laravel 5.5, you can only rate limit an endpoint with a maximum
-number of total requsets. But in 5.6 you can rate limit 
+number of total requests. But in 5.6 you can rate limit 
 [individual users](https://laravel-news.com/laravel-5-6-dynamic-rate-limiting)
 on specific authenticated routes.
 
