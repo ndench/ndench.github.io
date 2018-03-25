@@ -18,11 +18,6 @@ Slack Webhook in PHP
 * https://github.com/tototoshi/php-slack-webhook/blob/master/src/SlackWebhook.php
 * https://api.slack.com/incoming-webhooks#advanced_message_formatting
 
-Parsing flags in bash
-
-* https://rsalveti.wordpress.com/2007/04/03/bash-parsing-arguments-with-getopts/
-* https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
-
 Setting up x keyboard
 
 * https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
