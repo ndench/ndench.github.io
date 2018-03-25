@@ -1,7 +1,6 @@
 title: Tech Notes
 description: >-
   This is where I brain dump anything I learn about programming, devops and general tech.
-baseurl: ""
 author: Nathan Dench
 url: "https://ndench.github.io"
 google_analytics: UA-113477794-1
@@ -13,6 +12,7 @@ permalink: /:categories/:title
 twitter_username: nathandench
 github_username: ndench
 linkedin_username: nathandench
+rss: rss
 
 # Disqus comments
 disqus:
@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 defaults:
   - scope:
