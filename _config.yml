@@ -24,6 +24,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 defaults:
   - scope:
@@ -39,3 +40,4 @@ defaults:
 collections:
   drafts:
     output: true
+    permalink: /drafts/:path/
