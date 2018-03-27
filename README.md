@@ -29,6 +29,8 @@ Setting up CodeDeploy, CodeBuild and CodePipeline
 * https://stackoverflow.com/q/32635428/1393498
 * https://stackoverflow.com/q/26903206/1393498
 * AWS docs for CodeDeploy, and CodeDeploy with Cloudwatch Logs
+* CodePipeline notifications https://hackernoon.com/monitor-your-aws-codebuilds-via-lambda-and-slack-ae2c621f68f1
+* CodeDeploy notifications https://gist.github.com/teeli/29a0e79397fa5560e1819b80025981af
 
 My journey with terraform
 
