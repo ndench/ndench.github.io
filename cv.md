@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Nathan Dench
+description: Full-stack Web Developer & DevOps Engineer
 include_subscribe: false
 ---
 
