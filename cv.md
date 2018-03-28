@@ -65,9 +65,17 @@ building a product that people actually want to use.
 
 **ShiftyBee** - *2016*
 
-I participated in the 2016 [Tanda](https://www.tanda.co) hackathon with a co-worker. Together we
-built ShiftyBee over the course of a weekend which integrates with the Tanda API to allow Tandas 
-clients (fast-food and retail businesses) to quickly replace a "ShiftyBee" - an employee who 
-didn't show up for their shift. With the click of a button it organises for an available employee
-to cover the shift. We were able to get a production deploy of the app up and running within two 
-days, which was very exicting.
+I participated in the [2016 Tanda hackathon](https://www.tanda.co/brisbanes-largest-hackathon-2016/)
+with a co-worker. Together we built ShiftyBee over the course of a weekend which integrates with 
+the Tanda API to allow Tanda's clients (fast-food and retail businesses) to quickly replace a 
+"ShiftyBee" - an employee who didn't show up for their shift. With the click of a button it 
+organises for an available employee to cover the shift. We were able to get a production deploy of 
+the app up and running within two days, which was very exicting.
+
+#### Education
+
+**University of Queensland** - *January 2011 - June 2014*
+
+UQ helped me lay the foundations for a career in software development. My courses ranged from
+Operating Systems to Cryptography but mainly focused around my major of Software Design. I 
+graduated with a Bachelor of Information Technology.
