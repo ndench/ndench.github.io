@@ -18,6 +18,10 @@ rss: rss
 disqus:
   shortname: ndench
 
+# Don't show any other pages in the nav
+header_pages: 
+  - about.md
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -38,6 +42,7 @@ defaults:
       layout: post
       comments: false
 
+# Build drafts
 collections:
   drafts:
     output: true

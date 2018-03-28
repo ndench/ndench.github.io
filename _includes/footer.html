@@ -3,6 +3,7 @@
 
   <div class="wrapper">
 
+  {% unless page.include_subscribe == false %}
   <style>
     .site-border-block {
       border-bottom: 1px solid #e8e8e8;
@@ -26,6 +27,7 @@
     </div>
     <!--End mc_embed_signup-->
   </div>
+  {% endunless %}
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
