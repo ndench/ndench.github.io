@@ -29,13 +29,41 @@ You need to tell doctrine to create the database and tables with the `utf8mb4`
 encoding:
 
 ```yaml
-# app/config/config.yml
+# app/config/config.yml (symfony < 4)
+# config/packages/doctrine.yaml symfony > 4)
 doctrine:
     dbal:
+        ...
         charset: utf8mb4
         default_table_options:
             charset: utf8mb4
             collate: utf8mb4_unicode_ci
+        ...
+```
+
+**UPDATE**: If you have multiple database connections, you'll have to specify 
+both `charset`and `default_tables_options` for each one:
+
+```yaml
+# app/config/config.yml (symfony < 4)
+# config/packages/doctrine.yaml (symfony > 4)
+doctrine:
+    dbal:
+        default_connection: default
+        default:
+            ...
+            charset: utf8mb4
+            default_table_options:
+                charset: utf8mb4
+                collate: utf8mb4_unicode_ci
+            ...
+        other:
+            ...
+            charset: utf8mb4
+            default_table_options:
+                charset: utf8mb4
+                collate: utf8mb4_unicode_ci
+            ...
 ```
 
 
@@ -143,7 +171,7 @@ resource "aws_db_instance" "primary" {
 Once you've connected to your RDS or MySQL instance, you should test the 
 encoding:
 
-```mysql
+```sql
 mysql> SHOW VARIABLES WHERE Variable_name LIKE 'character%' OR Variable_name LIKE 'collation%';
 +--------------------------+--------------------+
 | Variable_name            | Value              |
@@ -165,6 +193,40 @@ Don't worry about the `charater_set_filesystem` or `character_set_system`, they
 cannot be changed, but don't break anything.
 
 
+**UPDATE**
+
+To check that your tables are all set correctly, you can run the follwing:
+
+```sql
+SELECT 
+   T.TABLE_NAME,
+   CCSA.CHARACTER_SET_NAME,
+   CCSA.COLLATION_NAME 
+FROM 
+    information_schema.`TABLES` T,
+    information_schema.`COLLATION_CHARACTER_SET_APPLICABILITY` CCSA 
+WHERE 
+    CCSA.COLLATION_NAME = T.TABLE_COLLATIOn
+    AND T.TABLE_SCHEMA = "db_name"
+;
+```
+
+To check that your columns set correctly, run the following:
+
+```sql
+SELECT 
+    TABLE_NAME, 
+    COLUMN_NAME, 
+    CHARACTER_SET_NAME, 
+    COLLATION_NAME 
+from 
+    INFORMATION_SCHEMA.columns 
+where 
+    TABLE_SCHEMA = "DB_name"
+;
+```
+
+
 ## Links that helped me ##
 
 * [Unicode support in MySQL](https://mathiasbynens.be/notes/mysql-utf8mb4)
@@ -173,3 +235,4 @@ cannot be changed, but don't break anything.
 * [Connecting to a database with utf8mb4](https://stackoverflow.com/q/6787824/1393498)
 * [Difference between character set and collation](https://stackoverflow.com/q/341273/1393498)
 * [character_set_server vs default_character_set](https://stackoverflow.com/q/24150997/1393498)
+* [How do I see what character set a MySQL database/table/column is?](https://stackoverflow.com/q/1049728/1393498)
