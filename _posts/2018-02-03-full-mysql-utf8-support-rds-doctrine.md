@@ -222,7 +222,7 @@ SELECT
 from 
     INFORMATION_SCHEMA.columns 
 where 
-    TABLE_SCHEMA = "DB_name"
+    TABLE_SCHEMA = "db_name"
 ;
 ```
 
