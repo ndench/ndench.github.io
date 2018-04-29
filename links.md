@@ -54,6 +54,11 @@ it.
 * An [explanation of CQRS](https://matthiasnoback.nl/2018/01/simple-cqrs-reduce-coupling-allow-the-model-to-evolve/)
 which keeps popping up everywhere but until now I've never really understood it.
 
+* Check if your site has an A+ security rating with [securityheaders.com](https://securityheaders.com/).
+
+* Not sure what a content security policy is? [Content Security Policy 101](https://christoph-rumpel.com/2018/03/content-security-policy-101)
+has got your back.
+
 
 # Software Engineering
 
@@ -70,6 +75,8 @@ which keeps popping up everywhere but until now I've never really understood it.
 
 * Want to "level up your PhpStorm game"? Check out [phpstorm.tips](http://phpstorm.tips). 
 A collection of small tips and tricks you can use to get better at PhpStorm.
+
+* Some more [PhpStorm tips for power users](https://www.stitcher.io/blog/phpstorm-tips-for-power-users)
 
 * Ever thought the MAN pages were too hard to understand, or just took too long 
 to read? Check out the [TL;DR man pages](https://laravel-news.com/tldr-pages).
@@ -104,3 +111,4 @@ about what he looks for in a PR to his projects.
 # Design
 
 * Some great tips to [cheat at design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886).
+* A super fun game that teaches you flexbox by killing zombies with a crossbow [Flexbox Zombies](https://flexboxzombies.com).
