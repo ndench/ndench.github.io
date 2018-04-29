@@ -18,9 +18,8 @@ rss: rss
 disqus:
   shortname: ndench
 
-# Don't show any other pages in the nav
 header_pages: 
-  - about.md
+  - links.md
 
 # Build settings
 markdown: kramdown

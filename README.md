@@ -32,6 +32,7 @@ Setting up CodeDeploy, CodeBuild and CodePipeline
 * AWS docs for CodeDeploy, and CodeDeploy with Cloudwatch Logs
 * CodePipeline notifications https://hackernoon.com/monitor-your-aws-codebuilds-via-lambda-and-slack-ae2c621f68f1
 * CodeDeploy notifications https://gist.github.com/teeli/29a0e79397fa5560e1819b80025981af
+* zero downtime deployments https://devsidestory.com/zero-downtime-deployment/
 
 My journey with terraform
 
@@ -44,9 +45,5 @@ My journey with terraform
 Vim as a PHP ide
 * http://web-techno.net/vim-php-ide/
 
-useful links:
-* Regex golf https://alf.nu/RegexGolf
-* regex challenge: http://play.inginf.units.it/
-* beginner regex tutorial: https://regexone.com
-* cool challenges and tutorials: https://www.hackerrank.com
-* reverse regex challenges: https://regexcrossword.com
+handling large files 
+* https://www.sitepoint.com/performant-reading-big-files-php/
