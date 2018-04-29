@@ -23,6 +23,7 @@ Setting up x keyboard
 * https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
 
 Setting up phpqa
+* http://web-techno.net/code-quality-check-tools-php
 
 Setting up CodeDeploy, CodeBuild and CodePipeline
 
@@ -39,3 +40,13 @@ My journey with terraform
 * use s3 & dynamo db backend
 * use 3rd party modules
 * use internal modules
+
+Vim as a PHP ide
+* http://web-techno.net/vim-php-ide/
+
+useful links:
+* Regex golf https://alf.nu/RegexGolf
+* regex challenge: http://play.inginf.units.it/
+* beginner regex tutorial: https://regexone.com
+* cool challenges and tutorials: https://www.hackerrank.com
+* reverse regex challenges: https://regexcrossword.com
