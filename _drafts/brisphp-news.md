@@ -12,3 +12,6 @@ tags: brisphp php news
 * a good explanation of password hashing in php: https://php.earth/docs/security/passwords
     * find best parameters: http://argon2-cffi.readthedocs.io/en/stable/cli.html
     * https://stackoverflow.com/questions/48320403/argon2i-in-php7-picking-appropriate-options
+* PSR-12 is in review: https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md
+* Drupal has has a lot of security vulnerabilites: https://www.drupal.org/security
+* An example attack against drupalgeddon: https://research.checkpoint.com/uncovering-drupalgeddon-2

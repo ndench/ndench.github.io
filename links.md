@@ -36,6 +36,12 @@ commands you need to run in your project to come through a common interface.
 * Ever wondered how a framework holds together? [This post](https://kevinsmith.io/modern-php-without-a-framework)
 will walk you through building your own from open source components.
 
+* A YouTube playlist of talks at the [PHP UK Conference 2018](https://www.youtube.com/watch?v=59fbepJZ_3w&list=PL_aPVo2HeGF85tk74MDDOckZUNKg7-qiz).
+
+* Using classes and `...` to create [strictly types arrays in PHP](https://medium.com/2dotstwice-connecting-the-dots/creating-strictly-typed-arrays-and-collections-in-php-37036718c921).
+
+* A pretty long video explaining [CQRS and event sourcing](https://www.youtube.com/watch?v=RfnySciLUhc).
+
 
 # Security
 
@@ -69,6 +75,8 @@ has got your back.
 * How to use [value objects like a pro](https://hackernoon.com/value-objects-like-a-pro-f1bfc1548c72).
 
 * How to write better tests and avoid [software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html).
+
+* Examples of implementing common [design patterns in PHP](https://github.com/domnikl/DesignPatternsPHP).
 
 
 # Programming tools
