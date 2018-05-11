@@ -18,3 +18,4 @@ tags: brisphp php news
 * What's new in PHP 7.3: <https://ayesh.me/Upgrade-PHP-7.3>
 * Symfony 7.3 and ctype polyfil: <https://symfony.com/blog/introducing-new-symfony-polyfills-for-php-7-3-and-ctype>
 * Laracon Sydney - October 18-19 <https://laracon.com.au/>
+* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>

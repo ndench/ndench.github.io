@@ -15,7 +15,7 @@ write an entire blog post about.
 between versions.
 
 * A really in depth look at comparing different ORM libraries in PHP:
-[Objectively comparing ORM/DAL libraries](https://medium.com/@romaninsh/objectively-comparing-orm-dal-libraries-e4f095de80b5)
+[Objectively comparing ORM/DAL libraries](https://medium.com/@romaninsh/objectively-comparing-orm-dal-libraries-e4f095de80b5).
 
 * The Vancouver PHP user group had a
 [Q&A session](https://murze.be/vancouver-phps-qa-session-with-taylor-otwell)
@@ -36,11 +36,19 @@ commands you need to run in your project to come through a common interface.
 * Ever wondered how a framework holds together? [This post](https://kevinsmith.io/modern-php-without-a-framework)
 will walk you through building your own from open source components.
 
+* A YouTUbe playlist of talks at the [PHP UK Conference 2017](https://www.youtube.com/watch?list=PL_aPVo2HeGF-_djRi_UVWWLdkVpYQFnFm&v=RH74_sFjqzs).
+
 * A YouTube playlist of talks at the [PHP UK Conference 2018](https://www.youtube.com/watch?v=59fbepJZ_3w&list=PL_aPVo2HeGF85tk74MDDOckZUNKg7-qiz).
 
-* Using classes and `...` to create [strictly types arrays in PHP](https://medium.com/2dotstwice-connecting-the-dots/creating-strictly-typed-arrays-and-collections-in-php-37036718c921).
+* Using classes and the `...` token to create [strictly types arrays in PHP](https://medium.com/2dotstwice-connecting-the-dots/creating-strictly-typed-arrays-and-collections-in-php-37036718c921).
 
 * A pretty long video explaining [CQRS and event sourcing](https://www.youtube.com/watch?v=RfnySciLUhc).
+
+* A list of RSS feeds used by Freek Van der Herten to [keep up to date with PHP](https://gist.github.com/freekmurze/b7f78708697266d507311a6e800eaeae).
+
+* A package for [snapshot testing in PHPUnit](https://hackernoon.com/a-package-for-snapshot-testing-in-phpunit-2e4558c07fe3).
+
+* A hilarious article comparing [PHP to 💩](https://medium.com/fuzz/php-a0d0b1d365d8).
 
 
 # Security
@@ -77,6 +85,13 @@ has got your back.
 * How to write better tests and avoid [software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html).
 
 * Examples of implementing common [design patterns in PHP](https://github.com/domnikl/DesignPatternsPHP).
+
+* A curated collection of project-based programming tutorials: [Build your own X](https://github.com/danistefanovic/build-your-own-x)
+
+* A discussion about how object-oriented and functional programming can, and [should be used together](http://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html).
+
+* A great way of [combating legacy code by copy pasting a lot](https://matthiasnoback.nl/2018/04/combing-legacy-code-string-by-string/),
+allowing you to remove the original abstractions and come up with better ones.
 
 
 # Programming tools
