@@ -50,6 +50,10 @@ will walk you through building your own from open source components.
 
 * A hilarious article comparing [PHP to 💩](https://medium.com/fuzz/php-a0d0b1d365d8).
 
+* Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
+
+* Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php)
+
 
 # Security
 
@@ -93,6 +97,15 @@ has got your back.
 * A great way of [combating legacy code by copy pasting a lot](https://matthiasnoback.nl/2018/04/combing-legacy-code-string-by-string/),
 allowing you to remove the original abstractions and come up with better ones.
 
+* Awesome talk by Bob Martin about [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc).
+
+
+# Testing
+
+* Class based model factories are a way of easily setting up data for a test. In [this post](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
+we see an example for creating a fantasy football League with a specific number of players and other required data automatically.
+Instead of having to manually create all the data the League requires before instantiating in the test.
+
 
 # Programming tools
 
@@ -109,6 +122,7 @@ A cli program which summarises the man pages for you.
 
 
 # Regex
+
 * The [last regex guide](https://medium.com/tech-tajawal/regular-expressions-the-last-guide-6800283ac034)
 that you'll ever need.
 

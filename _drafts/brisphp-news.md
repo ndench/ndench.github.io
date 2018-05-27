@@ -14,8 +14,14 @@ tags: brisphp php news
     * <https://stackoverflow.com/questions/48320403/argon2i-in-php7-picking-appropriate-options>
 * PSR-12 is in review: <https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md>
 * Drupal has has a lot of security vulnerabilites: <https://www.drupal.org/security>
+    * Uncovering Drupalgeddon 2 <https://research.checkpoint.com/uncovering-drupalgeddon-2/>
 * An example attack against drupalgeddon: <https://research.checkpoint.com/uncovering-drupalgeddon-2>
 * What's new in PHP 7.3: <https://ayesh.me/Upgrade-PHP-7.3>
 * Symfony 7.3 and ctype polyfil: <https://symfony.com/blog/introducing-new-symfony-polyfills-for-php-7-3-and-ctype>
 * Laracon Sydney - October 18-19 <https://laracon.com.au/>
 * Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>
+* PHP version stats <https://seld.be/notes/php-versions-stats-2018-1-edition>
+* Migrate from Symfony 2.8 to 3.4 <https://blog.shopsys.com/5-5-steps-to-migrate-from-symfony-2-8-lts-to-symfony-3-4-lts-in-real-prs-50c98eb0e9f6>
+* Testing private services in Symfony 4.1: <https://www.tomasvotruba.cz/blog/2018/05/17/how-to-test-private-services-in-symfony/>
+* bref serverless php <http://mnapoli.fr/serverless-php/>
+* TBDM a database first ORM <https://thecodingmachine.io/tdbm5-coming-out>
