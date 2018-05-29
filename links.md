@@ -40,7 +40,7 @@ will walk you through building your own from open source components.
 
 * A YouTube playlist of talks at the [PHP UK Conference 2018](https://www.youtube.com/watch?v=59fbepJZ_3w&list=PL_aPVo2HeGF85tk74MDDOckZUNKg7-qiz).
 
-* Using classes and the `...` token to create [strictly types arrays in PHP](https://medium.com/2dotstwice-connecting-the-dots/creating-strictly-typed-arrays-and-collections-in-php-37036718c921).
+* Using classes and the `...` token to create [strictly typed arrays in PHP](https://medium.com/2dotstwice-connecting-the-dots/creating-strictly-typed-arrays-and-collections-in-php-37036718c921).
 
 * A pretty long video explaining [CQRS and event sourcing](https://www.youtube.com/watch?v=RfnySciLUhc).
 
@@ -73,6 +73,8 @@ which keeps popping up everywhere but until now I've never really understood it.
 * Not sure what a content security policy is? [Content Security Policy 101](https://christoph-rumpel.com/2018/03/content-security-policy-101)
 has got your back.
 
+* How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords)
+
 
 # Software Engineering
 
@@ -80,7 +82,7 @@ has got your back.
 
 * A post about [modular application architecture](https://www.goetas.com/blog/modular-application-architecture-intro/).
 
-* How to use [value objects like a pro](https://hackernoon.com/value-objects-like-a-pro-f1bfc1548c72).
+* How to use [value objects like a pro](https://hackernoon.com/value-objects-like-a-pro-f1bfc1548c72) to perfec your domain model.
 
 * Examples of implementing common [design patterns in PHP](https://github.com/domnikl/DesignPatternsPHP).
 
