@@ -46,11 +46,7 @@ will walk you through building your own from open source components.
 
 * A list of RSS feeds used by Freek Van der Herten to [keep up to date with PHP](https://gist.github.com/freekmurze/b7f78708697266d507311a6e800eaeae).
 
-* A package for [snapshot testing in PHPUnit](https://hackernoon.com/a-package-for-snapshot-testing-in-phpunit-2e4558c07fe3).
-
 * A hilarious article comparing [PHP to 💩](https://medium.com/fuzz/php-a0d0b1d365d8).
-
-* Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
 
 * Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php)
 
@@ -86,8 +82,6 @@ has got your back.
 
 * How to use [value objects like a pro](https://hackernoon.com/value-objects-like-a-pro-f1bfc1548c72).
 
-* How to write better tests and avoid [software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html).
-
 * Examples of implementing common [design patterns in PHP](https://github.com/domnikl/DesignPatternsPHP).
 
 * A curated collection of project-based programming tutorials: [Build your own X](https://github.com/danistefanovic/build-your-own-x)
@@ -99,12 +93,18 @@ allowing you to remove the original abstractions and come up with better ones.
 
 * Awesome talk by Bob Martin about [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc).
 
+* A community curated list of [awesome tech talks](https://awesometalks.party/).
+
 
 # Testing
 
-* Class based model factories are a way of easily setting up data for a test. In [this post](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories)
-we see an example for creating a fantasy football League with a specific number of players and other required data automatically.
-Instead of having to manually create all the data the League requires before instantiating in the test.
+* [Class based model factories](https://tighten.co/blog/tidy-up-your-tests-with-class-based-model-factories) are a way of easily setting up data for a test.
+
+* A package for [snapshot testing in PHPUnit](https://hackernoon.com/a-package-for-snapshot-testing-in-phpunit-2e4558c07fe3).
+
+* How to write better tests and avoid [software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html).
+
+* Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
 
 
 # Programming tools
