@@ -229,7 +229,9 @@ post is to teach people that frameworks aren't magic and I think it does it very
 Symfony 4.1 was released yesterday, and there are a lot of very awesome things inluded.
 If you want to see all the changes and new features you can see a list of all the 
 [New in Symfony 4.1](https://symfony.com/blog/category/living-on-the-edge/4.1) blog posts which 
-are mainly written by Javier Eguiluz and go into detail about each update. Here are my favourite changes:
+are mainly written by Javier Eguiluz and go into detail about each update. Or you can take a quick
+look at this [curated list of new features](https://symfony.com/blog/symfony-4-1-curated-new-features)
+Here are my favourite changes:
 
 * The serializer is bad ass:
     * [Up to 40% speed improvement](https://symfony.com/blog/new-in-symfony-4-1-faster-serializer)
