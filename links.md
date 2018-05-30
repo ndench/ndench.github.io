@@ -103,6 +103,8 @@ allowing you to remove the original abstractions and come up with better ones.
 
 * An awesomely hilarious post on [how do deal with time](https://zachholman.com/talk/utc-is-enough-for-everyone-right) and why it sucks.
 
+* A quick read about the value of [converting procedural code to OOP](https://patricklouys.com/2018/05/26/tell-dont-ask/).
+
 
 # Testing
 
