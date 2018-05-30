@@ -224,9 +224,9 @@ without a framework. He's explaining how modern frameworks hang together and sho
 piece your own lightweight framework together with a few open source parts. The main goal of the 
 post is to teach people that frameworks aren't magic and I think it does it very well.
 
-#### Symfony 4.1 is on the horizon ####
+#### Symfony 4.1 ####
 
-Symfony 4.1 is due to be released any day, and there are a lot of very awesome things inluded.
+Symfony 4.1 was released yesterday, and there are a lot of very awesome things inluded.
 If you want to see all the changes and new features you can see a list of all the 
 [New in Symfony 4.1](https://symfony.com/blog/category/living-on-the-edge/4.1) blog posts which 
 are mainly written by Javier Eguiluz and go into detail about each update. Here are my favourite changes:
