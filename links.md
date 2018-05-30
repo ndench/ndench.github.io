@@ -51,6 +51,10 @@ will walk you through building your own from open source components.
 * Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php)
 
 
+# Javascript
+
+* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>
+
 # Security
 
 * The [PHP Security Advent Calendar](https://blog.ripstech.com/2017/php-security-advent-calendar/)
@@ -96,6 +100,8 @@ allowing you to remove the original abstractions and come up with better ones.
 * Awesome talk by Bob Martin about [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc).
 
 * A community curated list of [awesome tech talks](https://awesometalks.party/).
+
+* An awesomely hilarious post on [how do deal with time](https://zachholman.com/talk/utc-is-enough-for-everyone-right) and why it sucks.
 
 
 # Testing

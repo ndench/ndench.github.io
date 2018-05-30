@@ -217,37 +217,74 @@ code style rules for a lot of the new features and syntax that has come out sinc
 
 ### Framework news ###
 
-* how to build a framework: <https://kevinsmith.io/modern-php-without-a-framework>
+Before I talk about all the new things in framework land, I'd like to mention this post by Kevin 
+Smith about writing [Modern PHP Without a Framework](https://kevinsmith.io/modern-php-without-a-framework).
+It's a very interesting read and in spite of the title Kevin's not recommending you write PHP 
+without a framework. He's explaining how modern frameworks hang together and showing you how to
+piece your own lightweight framework together with a few open source parts. The main goal of the 
+post is to teach people that frameworks aren't magic and I think it does it very well.
 
-#### Symfony ####
+#### Symfony 4.1 is on the horizon ####
+
+Symfony 4.1 is due to be released any day, and there are a lot of very awesome things inluded.
+If you want to see all the changes and new features you can see a list of all the 
+[New in Symfony 4.1](https://symfony.com/blog/category/living-on-the-edge/4.1) blog posts which 
+go into detail about each update. Here are my favourite changes:
+
+* The serializer is bad ass:
+    * [Up to 40% speed improvement](https://symfony.com/blog/new-in-symfony-4-1-faster-serializer)
+    * [A bunch of cool impprovements](https://symfony.com/blog/new-in-symfony-4-1-serializer-improvements), including:
+        * Automatically validating the serialized object for you
+        * Being able to serialize objects that require constructor arguments
+* A new [Messenger Component](https://symfony.com/blog/new-in-symfony-4-1-messenger-component) similar 
+  to the awesome Laravel Queues
+* Some improvements to the [Workflow Component](https://symfony.com/blog/new-in-symfony-4-1-workflow-improvements)
+  including storing arbitrary metadata on workflow steps
+* [Simpler service testing](https://symfony.com/blog/new-in-symfony-4-1-simpler-service-testing)
+  by making services non-private by default in the test environment
+* [Improvments to the Router](https://symfony.com/blog/new-in-symfony-4-1-fastest-php-router) which 
+  is already the fastest in PHP, but now it's even faster!
+* Ability to configure [Argon2i password hashing](https://symfony.com/blog/new-in-symfony-4-1-argon2i-configuration).
+  I've already started using Argon2i and it's pretty great, with this we will be able to configure 
+  it to be more secure. Here are some good links for how to choose the correct options:
+    * [How to work with passwords securely](https://php.earth/docs/security/passwords)
+    * [SO question about picking appropriate options](https://stackoverflow.com/q/48320403/1393498)
+    * [A great cli tool](http://argon2-cffi.readthedocs.io/en/stable/cli.html) I used to find the appropriate values for my servers 
 
 
-* Migrate from Symfony 2.8 to 3.4 <https://blog.shopsys.com/5-5-steps-to-migrate-from-symfony-2-8-lts-to-symfony-3-4-lts-in-real-prs-50c98eb0e9f6>
-* Symfony 7.3 and ctype polyfil: <https://symfony.com/blog/introducing-new-symfony-polyfills-for-php-7-3-and-ctype>
-* argon 2i configuration for symfony: <https://symfony.com/blog/new-in-symfony-4-1-argon2i-configuration>
-* a good explanation of password hashing in php: <https://php.earth/docs/security/passwords>
-    * find best parameters: <http://argon2-cffi.readthedocs.io/en/stable/cli.html>
-    * <https://stackoverflow.com/questions/48320403/argon2i-in-php7-picking-appropriate-options>
-* Testing private services in Symfony 4.1: <https://www.tomasvotruba.cz/blog/2018/05/17/how-to-test-private-services-in-symfony/>
+If you're still unfortunately stuck on an older version of Symfony, here's a great pot about how 
+to [upgrade from 2.8 to 3.4 in only 6 steps](https://blog.shopsys.com/5-5-steps-to-migrate-from-symfony-2-8-lts-to-symfony-3-4-lts-in-real-prs-50c98eb0e9f6).
 
-#### Laravel ####
+#### Laravel - Laracon is coming up! ####
 
-* Laracon Sydney - October 18-19 <https://laracon.com.au/>
+Laracon is coming to Sydey on October 18-19 and early bird tickets are [on sale now](https://laracon.com.au/)!
 
 
 #### Drupal ####
 
-* Drupal has has a lot of security vulnerabilites: <https://www.drupal.org/security>
-    * Uncovering Drupalgeddon 2 <https://research.checkpoint.com/uncovering-drupalgeddon-2/>
-* An example attack against drupalgeddon: <https://research.checkpoint.com/uncovering-drupalgeddon-2>
+Drupal has had a tough start to the year with [3 critical vulnerabilities](https://www.drupal.org/security)
+including 2 remote code execution vulnerabilities. One of them is called  Druaplgeddon 2 (which is
+an awesome name) and here is agreat post about [how it was uncovered](https://research.checkpoint.com/uncovering-drupalgeddon-2/)
 
 
-### Javascript ###
+### Some new packages ###
 
-* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>
+[Bref](http://mnapoli.fr/serverless-php/) is a tool that allows you to deploy your PHP app to AWS 
+Lambda and run it serverless. It seems a little crazy but it's pretty cool. In order to run PHP on
+Lambda you have to:
+
+* Compile PHP for the OS used on lambdas
+* Add the compiled PHP binary to the lambda
+* Write a Javascript handler (the code executed by the lambda) that executes the PHP binary
+* Write a PHP handler (the code that will be executed by the Javascript handler)
+* Deploy the lambda
+
+It's pretty cool that the PHP community is pushing the boundaries of what we can do, this is we
+progress PHP as a language!
 
 
-### New packages ###
-
-* bref serverless php <http://mnapoli.fr/serverless-php/>
-* TBDM a database first ORM <https://thecodingmachine.io/tdbm5-coming-out>
+[TBDM](https://thecodingmachine.io/tdbm5-coming-out) is an ORM for people that hate ORM's. I've 
+heard many people complain about ORM's because they don't allow you to model your business data
+in the way that you want. TBDM allows you to model your data in the database exactly how you want
+to, then it generates your entities in code for you, not the other way around like a conventional
+ORM.
