@@ -229,20 +229,20 @@ post is to teach people that frameworks aren't magic and I think it does it very
 Symfony 4.1 is due to be released any day, and there are a lot of very awesome things inluded.
 If you want to see all the changes and new features you can see a list of all the 
 [New in Symfony 4.1](https://symfony.com/blog/category/living-on-the-edge/4.1) blog posts which 
-go into detail about each update. Here are my favourite changes:
+are mainly written by Javier Eguiluz and go into detail about each update. Here are my favourite changes:
 
 * The serializer is bad ass:
     * [Up to 40% speed improvement](https://symfony.com/blog/new-in-symfony-4-1-faster-serializer)
-    * [A bunch of cool impprovements](https://symfony.com/blog/new-in-symfony-4-1-serializer-improvements), including:
+    * [A bunch of cool improvements](https://symfony.com/blog/new-in-symfony-4-1-serializer-improvements), including:
         * Automatically validating the serialized object for you
-        * Being able to serialize objects that require constructor arguments
+        * Being able to deserialize objects that require constructor arguments
 * A new [Messenger Component](https://symfony.com/blog/new-in-symfony-4-1-messenger-component) similar 
   to the awesome Laravel Queues
 * Some improvements to the [Workflow Component](https://symfony.com/blog/new-in-symfony-4-1-workflow-improvements)
   including storing arbitrary metadata on workflow steps
 * [Simpler service testing](https://symfony.com/blog/new-in-symfony-4-1-simpler-service-testing)
   by making services non-private by default in the test environment
-* [Improvments to the Router](https://symfony.com/blog/new-in-symfony-4-1-fastest-php-router) which 
+* [Improvements to the Router](https://symfony.com/blog/new-in-symfony-4-1-fastest-php-router) which 
   is already the fastest in PHP, but now it's even faster!
 * Ability to configure [Argon2i password hashing](https://symfony.com/blog/new-in-symfony-4-1-argon2i-configuration).
   I've already started using Argon2i and it's pretty great, with this we will be able to configure 
@@ -252,19 +252,29 @@ go into detail about each update. Here are my favourite changes:
     * [A great cli tool](http://argon2-cffi.readthedocs.io/en/stable/cli.html) I used to find the appropriate values for my servers 
 
 
-If you're still unfortunately stuck on an older version of Symfony, here's a great pot about how 
+If you're still unfortunately stuck on an older version of Symfony, here's a great post about how 
 to [upgrade from 2.8 to 3.4 in only 6 steps](https://blog.shopsys.com/5-5-steps-to-migrate-from-symfony-2-8-lts-to-symfony-3-4-lts-in-real-prs-50c98eb0e9f6).
 
-#### Laravel - Laracon is coming up! ####
+#### Laravel - Laracon ####
 
-Laracon is coming to Sydey on October 18-19 and early bird tickets are [on sale now](https://laracon.com.au/)!
+Laracon is coming to Sydney on October 18-19 and early bird tickets are [on sale now](https://laracon.com.au/)!
+
+
+#### Phalcon 3.4.0 ####
+
+[Phalcon 3.4.0 was released](https://blog.phalconphp.com/post/phalcon-3-4-0-released) with some cool features:
+
+* Ability to use custom authorisation resolvers
+* A bunch of fixes and updates to the `Crypt` component
+
+This is going to be the last big release in 3.x since the team is forging ahead on version 4.0.
 
 
 #### Drupal ####
 
 Drupal has had a tough start to the year with [3 critical vulnerabilities](https://www.drupal.org/security)
 including 2 remote code execution vulnerabilities. One of them is called  Druaplgeddon 2 (which is
-an awesome name) and here is agreat post about [how it was uncovered](https://research.checkpoint.com/uncovering-drupalgeddon-2/)
+an awesome name) and here is a great post about [how it was uncovered](https://research.checkpoint.com/uncovering-drupalgeddon-2/)
 
 
 ### Some new packages ###
@@ -279,7 +289,7 @@ Lambda you have to:
 * Write a PHP handler (the code that will be executed by the Javascript handler)
 * Deploy the lambda
 
-It's pretty cool that the PHP community is pushing the boundaries of what we can do, this is we
+It's pretty cool that the PHP community is pushing the boundaries of what we can do, this how is we
 progress PHP as a language!
 
 
@@ -288,3 +298,10 @@ heard many people complain about ORM's because they don't allow you to model you
 in the way that you want. TBDM allows you to model your data in the database exactly how you want
 to, then it generates your entities in code for you, not the other way around like a conventional
 ORM.
+
+[CipherSweet](https://github.com/paragonie/ciphersweet) was released by the Paragon Initiative
+and is an implementiation of [searchable field-level encryption](https://paragonie.com/blog/2017/05/building-searchable-encrypted-databases-with-php-and-sql).
+Which means you can store encrypted data in your database and search it without decrypting
+every row. I don't know about you but this seems like utter magic to me. The example given by
+Paragon is storing a bunch of SSN's in encrypted format and being able to search them to find a 
+specific user.
