@@ -19,14 +19,14 @@ easier than I thought. There are only a few steps involved:
     ```
 4. Create a Jekyll project locally:
     ```bash
-    $ bundle exec jekyll new <username>.github.io
+    $ jekyll new <username>.github.io
     ```
 5. Set up your local git project:
     ```bash
     $ cd <username>.github.io
     $ git init
     # Note: You can get this url from GitHub on your new repo page
-    $ git remote set-url git@github.com:<username>/<username>.github.io.git
+    $ git remote add origin git@github.com:<username>/<username>.github.io.git
     ```
 6. Build your blog locally then view it at [localhost:4000](http://localhost:4000):
     ```bash
