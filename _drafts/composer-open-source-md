@@ -1,0 +1,29 @@
+---
+title: How to easily contribute to your composer depnedencies
+categories: php
+tags: php composer open-source
+---
+
+1. Fork the repository you want to update
+2. Create a branch in your repository (eg. "fix-foo"), choose one that's not already in use.
+3. Add your fork to your composer.json
+
+```json
+...
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/<username>/<repo name>"
+        }
+    ]
+...
+```
+NOTE: Don't update the `"require"` block, it will still point to the original `<vendor>/<repo name>`.
+
+4. Install your fork from source:
+```bash
+composer require --prefer-source <vendor>/<repo name>:dev-<branch name>
+```
+
+NOTE: This means that you'll have your git repo cloned at `vendor/<vendor>/<repo name>`, meaning
+you can update it in the context of your project and test it with your project.
