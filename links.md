@@ -130,6 +130,8 @@ A cli program which summarises the man pages for you.
 
 * Some really fun [programming tutorials and challenges](https://www.hackerrank.com).
 
+* A set of steps to follow to [always be automating](https://queue.acm.org/detail.cfm?id=3197520) and how you shouldn't accept manual work.
+
 
 # Regex
 
