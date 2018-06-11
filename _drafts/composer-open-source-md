@@ -27,3 +27,10 @@ composer require --prefer-source <vendor>/<repo name>:dev-<branch name>
 
 NOTE: This means that you'll have your git repo cloned at `vendor/<vendor>/<repo name>`, meaning
 you can update it in the context of your project and test it with your project.
+
+
+## Links
+
+* https://snippets.khromov.se/composer-use-your-own-fork-for-a-package/
+* https://stackoverflow.com/q/13498519/1393498
+* https://stackoverflow.com/q/40914114/1393498
