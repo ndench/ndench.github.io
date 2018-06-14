@@ -132,6 +132,8 @@ A cli program which summarises the man pages for you.
 
 * A set of steps to follow to [always be automating](https://queue.acm.org/detail.cfm?id=3197520) and how you shouldn't accept manual work.
 
+* Use `git rebase --onto` to [rebase your feature branch from one branch to another](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another)
+
 
 # Regex
 
