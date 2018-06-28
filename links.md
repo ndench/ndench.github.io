@@ -105,6 +105,10 @@ allowing you to remove the original abstractions and come up with better ones.
 
 * A quick read about the value of [converting procedural code to OOP](https://patricklouys.com/2018/05/26/tell-dont-ask/).
 
+* Some concrete examples of how to [stop using if statements](https://code.joejag.com/2016/anti-if-the-missing-patterns.html).
+
+* A book explaning [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
+
 
 # Testing
 
