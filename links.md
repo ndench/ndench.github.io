@@ -50,6 +50,9 @@ will walk you through building your own from open source components.
 
 * Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php)
 
+# Symfony
+
+* A great explanation of [security roles vs. voters](https://stovepipe.systems/post/symfony-security-roles-vs-voters).
 
 # Javascript
 
