@@ -124,6 +124,11 @@ allowing you to remove the original abstractions and come up with better ones.
 * Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
 
 
+# Databases
+
+* YouTube video about [How SQL databases came up with their algorithms](https://www.youtube.com/watch?v=wTPGW1PNy_Y).
+
+
 # Programming tools
 
 * Want to "level up your PhpStorm game"? Check out [phpstorm.tips](http://phpstorm.tips). 

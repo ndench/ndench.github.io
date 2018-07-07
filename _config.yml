@@ -20,6 +20,8 @@ disqus:
 
 header_pages: 
   - links.md
+  - subscriptions.md
+  - blogs.md
 
 # Build settings
 markdown: kramdown
