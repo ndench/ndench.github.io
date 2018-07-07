@@ -14,4 +14,7 @@ can find it again.
 - [Stovepipe Systems](https://stovepipe.systems/) - posts about Symfony and code quality.
 - [Symfony living on the edge](https://symfony.com/blog/category/living-on-the-edge) - Symfony news.
 - [PHPNews.io](https://phpnews.io/) - general PHP and web dev posts.
-- [Symfony News](https://www.symfony-news.com/) - updates about Symfony
+- [Symfony News](https://www.symfony-news.com/) - updates about Symfony.
+- [Matthias Noback](https://matthiasnoback.nl/) - about software development.
+- [Patrick Louys](https://patricklouys.com/) - software development.
+- [stitcher.io](https://www.stitcher.io/) - PHP and general programming.

@@ -112,6 +112,8 @@ allowing you to remove the original abstractions and come up with better ones.
 
 * A book explaning [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
+* An article clearly explaining the [Liskov Substitution Principle](https://www.stitcher.io/blog/liskov-and-type-safety).
+
 
 # Testing
 
@@ -175,3 +177,4 @@ about what he looks for in a PR to his projects.
 
 * Some great tips to [cheat at design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886).
 * A super fun game that teaches you flexbox by killing zombies with a crossbow [Flexbox Zombies](https://flexboxzombies.com).
+* [The art of the error message](https://thestyleofelements.org/the-art-of-the-error-message-9f878d0bff80) digs into the design of showing errors to your users.
