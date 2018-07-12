@@ -94,6 +94,8 @@ write an entire blog post about.
 # Databases
 
 * YouTube video about [How SQL databases came up with their algorithms](https://www.youtube.com/watch?v=wTPGW1PNy_Y).
+* [Safe database migrations operations](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) at Braintree.
+* A talk by Ondrej Mirtes on [zero downtime database migrations](https://www.youtube.com/watch?v=hMO63IC6R7c&feature=youtu.be)
 
 
 # Programming tools
