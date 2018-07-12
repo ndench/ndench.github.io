@@ -91,6 +91,11 @@ write an entire blog post about.
 * Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
 
 
+# DevOps
+
+* A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9)
+
+
 # Databases
 
 * YouTube video about [How SQL databases came up with their algorithms](https://www.youtube.com/watch?v=wTPGW1PNy_Y).
