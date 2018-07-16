@@ -94,6 +94,7 @@ write an entire blog post about.
 # DevOps
 
 * A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9)
+* How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line)
 
 
 # Databases
