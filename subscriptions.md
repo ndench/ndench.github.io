@@ -12,3 +12,4 @@ I'm subscribed to quite a lot of email newsletters. This is where I store that l
 - [Growing the Stack](https://www.getrevue.co/profile/growingthestack) - programming newsletter.
 - [Code Without Rules](https://codewithoutrules.com/) - be a programmer with a work/life balance.
 - [Swizec Teller](https://swizec.com/blog/) - teaching programmers to be engineers.
+- [DevelopmentMatt](https://developmentmatt.com/) - development posts.

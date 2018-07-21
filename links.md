@@ -35,6 +35,8 @@ write an entire blog post about.
 * A list of RSS feeds used by Freek Van der Herten to [keep up to date with PHP](https://gist.github.com/freekmurze/b7f78708697266d507311a6e800eaeae).
 * A hilarious article comparing [PHP to 💩](https://medium.com/fuzz/php-a0d0b1d365d8).
 * Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php)
+* A list of useful simple [PHP snippets](https://github.com/appzcoder/30-seconds-of-php-code).
+* A collection of [PHP development tutorials](https://www.startutorial.com/).
 
 
 # Symfony
@@ -81,6 +83,9 @@ write an entire blog post about.
 * Some concrete examples of how to [stop using if statements](https://code.joejag.com/2016/anti-if-the-missing-patterns.html).
 * A book explaning [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 * An article clearly explaining the [Liskov Substitution Principle](https://www.stitcher.io/blog/liskov-and-type-safety).
+* An example of how to migrate legacy code to use [dependency injection](https://matthiasnoback.nl/2018/06/road-to-dependency-injection/)
+* A lecture by Bob Martin about [SOLID principles of Object Oriented and Agile design](https://www.youtube.com/watch?v=TMuno5RZNeE).
+* A quick explanation of the [collector pattern](https://www.tomasvotruba.cz/blog/2018/06/14/collector-pattern-for-dummies/).
 
 
 # Testing
