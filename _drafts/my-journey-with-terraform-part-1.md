@@ -234,4 +234,4 @@ resources that it knows about, so you can run it alongside your handcrafted reso
 
 I hope I've peaked your interest in Terraform, please leave a comment letting me know anything specific you'd like
 me to cover in future posts. This series will cover pretty much every "Aha moment" I've had, and what makes me refuse
-to do any infrastructure changes by "clicking on shit in the console".
+to make any infrastructure changes by "clicking on shit in the console".
