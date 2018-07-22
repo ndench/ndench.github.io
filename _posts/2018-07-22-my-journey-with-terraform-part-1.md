@@ -16,6 +16,11 @@ So I've decided to write a series of blog posts detailing the journey I've taken
 from being quite scared and lost, to going all in and Terraforming my world. This is the first post in which I'll go 
 over the first time I used Terraform and the "Aha moment" I had which drove me to deeper into devops.
 
+Note: If you haven't used the AWS Console before, I would highly recommend that you use it before you try Terraform.
+Otherwise all the Terraform options will seem confusing. If I'm doing something new in Terraform I'll often go and 
+create the resource manually through the Console first, just to get a feel for what the options are. Then I'll delete
+it and redo it in Terraform.
+
 
 ## Why I love it
 
