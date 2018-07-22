@@ -18,3 +18,4 @@ can find it again.
 - [Matthias Noback](https://matthiasnoback.nl/) - about software development.
 - [Patrick Louys](https://patricklouys.com/) - software development.
 - [stitcher.io](https://www.stitcher.io/) - PHP and general programming.
+- [CX Social Dev Blog](https://engagor.github.io/)) - software development and team building
