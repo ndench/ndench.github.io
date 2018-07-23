@@ -64,6 +64,7 @@ write an entire blog post about.
 * Check if your site has an A+ security rating with [securityheaders.com](https://securityheaders.com/).
 * Not sure what a content security policy is? [Content Security Policy 101](https://christoph-rumpel.com/2018/03/content-security-policy-101) has got your back.
 * How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords)
+* [Why you shouldn't use Javascript Object Signing and Encryption](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) (JWT/JWE/JWS)
 
 
 # Software Engineering
