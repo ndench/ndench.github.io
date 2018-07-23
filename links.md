@@ -34,7 +34,7 @@ write an entire blog post about.
 * A pretty long video explaining [CQRS and event sourcing](https://www.youtube.com/watch?v=RfnySciLUhc).
 * A list of RSS feeds used by Freek Van der Herten to [keep up to date with PHP](https://gist.github.com/freekmurze/b7f78708697266d507311a6e800eaeae).
 * A hilarious article comparing [PHP to 💩](https://medium.com/fuzz/php-a0d0b1d365d8).
-* Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php)
+* Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php).
 * A list of useful simple [PHP snippets](https://github.com/appzcoder/30-seconds-of-php-code).
 * A collection of [PHP development tutorials](https://www.startutorial.com/).
 
@@ -46,7 +46,7 @@ write an entire blog post about.
 
 # Javascript
 
-* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>
+* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>>
 
 
 # Security
@@ -63,8 +63,9 @@ write an entire blog post about.
     which keeps popping up everywhere but until now I've never really understood it.
 * Check if your site has an A+ security rating with [securityheaders.com](https://securityheaders.com/).
 * Not sure what a content security policy is? [Content Security Policy 101](https://christoph-rumpel.com/2018/03/content-security-policy-101) has got your back.
-* How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords)
-* [Why you shouldn't use Javascript Object Signing and Encryption](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) (JWT/JWE/JWS)
+* How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords).
+* [Why you shouldn't use Javascript Object Signing and Encryption](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) (JWT/JWE/JWS)>
+* Troy Hunt on [why your static site needs https](https://www.troyhunt.com/heres-why-your-static-website-needs-https/).
 
 
 # Software Engineering
