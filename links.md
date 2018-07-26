@@ -66,8 +66,10 @@ write an entire blog post about.
 * How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords).
 * [Why you shouldn't use Javascript Object Signing and Encryption](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) (JWT/JWE/JWS).
 * Troy Hunt on [why your static site needs https](https://www.troyhunt.com/heres-why-your-static-website-needs-https/).
-* Troy Hunt on [hack yourself first](https://www.troyhunt.com/yow-conference-talk-hack-yourself-first/) at Yow! 2014: [YouTube video here](https://www.youtube.com/watch?v=hOikSOzV4cw).
+* Troy Hunt on [hack yourself first](https://www.troyhunt.com/hack-yourself-first-how-to-go-on/) with a [talk at Yow! Conference in 2014](https://www.youtube.com/watch?v=hOikSOzV4cw)
+    and a [free pluralsight course](https://www.pluralsight.com/courses/hack-yourself-first).
 * Troy Hunt on [Some Something Security](https://www.youtube.com/watch?v=gVXEwfH6FLc) at NDC 2017.
+* Troy Hunt on [building a reset password feature](https://www.troyhunt.com/everything-you-ever-wanted-to-know/).
 
 
 # Software Engineering
