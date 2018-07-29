@@ -13,3 +13,4 @@ I'm subscribed to quite a lot of email newsletters. This is where I store that l
 - [Code Without Rules](https://codewithoutrules.com/) - be a programmer with a work/life balance.
 - [Swizec Teller](https://swizec.com/blog/) - teaching programmers to be engineers.
 - [DevelopmentMatt](https://developmentmatt.com/) - development posts.
+- [Websec.io](https://websec.io/) - PHP security.

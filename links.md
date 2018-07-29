@@ -37,6 +37,9 @@ write an entire blog post about.
 * Real world examples of [array destructuring in PHP](https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php).
 * A list of useful simple [PHP snippets](https://github.com/appzcoder/30-seconds-of-php-code).
 * A collection of [PHP development tutorials](https://www.startutorial.com/).
+* A cool benchmark of [associative arrays vs stdClass vs named classes](https://steemit.com/php/@crell/php-use-associative-arrays-basically-never).
+* [Keep credentials secure](https://websec.io/2018/06/14/Keep-Credentials-Secure.html) in PHP.
+* [Concurrency in PHP with Swoole](https://blog.andreiavram.ro/concurrency-php-swoole/), essentially goroutines in PHP.
 
 
 # Symfony
@@ -125,6 +128,7 @@ write an entire blog post about.
 * Some really fun [programming tutorials and challenges](https://www.hackerrank.com).
 * A set of steps to follow to [always be automating](https://queue.acm.org/detail.cfm?id=3197520) and how you shouldn't accept manual work.
 * Use `git rebase --onto` to [rebase your feature branch from one branch to another](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another)
+* [GitHub tips and tricks](https://laravel-news.com/github-tips-tricks).
 
 
 # Regex
