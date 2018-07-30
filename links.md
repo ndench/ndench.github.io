@@ -103,6 +103,7 @@ write an entire blog post about.
 * A package for [snapshot testing in PHPUnit](https://hackernoon.com/a-package-for-snapshot-testing-in-phpunit-2e4558c07fe3).
 * How to write better tests and avoid [software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html).
 * Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
+* [Testing strategy with the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/.)
 
 
 # DevOps
@@ -131,6 +132,10 @@ write an entire blog post about.
 * [GitHub tips and tricks](https://laravel-news.com/github-tips-tricks).
 
 
+# Functional Programming
+
+* [Explanation of folds](https://medium.com/@zaid.naom/exploring-folds-a-powerful-pattern-of-functional-programming-3036974205c8) and why they're so great.
+
 # Regex
 
 * The [last regex guide](https://medium.com/tech-tajawal/regular-expressions-the-last-guide-6800283ac034)
@@ -146,6 +151,7 @@ write an entire blog post about.
 * A [post by Jeff Geerling](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
     about what he looks for in a PR to his projects.
 * A walkthrough for your [first open source PR](https://mattstauffer.com/blog/how-to-contribute-to-an-open-source-github-project-using-your-own-fork/).
+* Avoid disappointent by [makinig smaller pull requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/).
 
 
 # Design
