@@ -40,6 +40,8 @@ write an entire blog post about.
 * A cool benchmark of [associative arrays vs stdClass vs named classes](https://steemit.com/php/@crell/php-use-associative-arrays-basically-never).
 * [Keep credentials secure](https://websec.io/2018/06/14/Keep-Credentials-Secure.html) in PHP.
 * [Concurrency in PHP with Swoole](https://blog.andreiavram.ro/concurrency-php-swoole/), essentially goroutines in PHP.
+* Examples or implementing [design patters in PHP](https://github.com/domnikl/DesignPatternsPHP).
+* [7 reasons I switched back to PHP after 2 years on Rails](https://sivers.org/rails2php).
 
 
 # Symfony
@@ -95,6 +97,8 @@ write an entire blog post about.
 * An example of how to migrate legacy code to use [dependency injection](https://matthiasnoback.nl/2018/06/road-to-dependency-injection/)
 * A lecture by Bob Martin about [SOLID principles of Object Oriented and Agile design](https://www.youtube.com/watch?v=TMuno5RZNeE).
 * A quick explanation of the [collector pattern](https://www.tomasvotruba.cz/blog/2018/06/14/collector-pattern-for-dummies/).
+* Why you should embrace the [Majestic Monolith](https://m.signalvnoise.com/the-majestic-monolith-29166d022228) especially with a small team.
+* [What's so great about OOP](https://kevinsmith.io/whats-so-great-about-oop) a comparison between procedural and object-oriented.
 
 
 # Testing
