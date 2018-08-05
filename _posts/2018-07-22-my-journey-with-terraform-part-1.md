@@ -116,6 +116,8 @@ I hope I've peaked your interest in Terraform, please leave a comment letting me
 me to cover in future posts. This series will cover pretty much every "Aha moment" I've had, and what makes me refuse
 to make any infrastructure changes by "clicking on shit in the Console".
 
+**Update**: See [part 2 here]({% post_url 2018-08-05-my-journey-with-terraform-part-2 %}).
+
 <!-- Override default table style to show gists better -->
 <style>
 .gist table tr {
