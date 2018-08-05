@@ -16,7 +16,7 @@ balancer. In terms of our infrastructure at work, we were managing our VPC's wit
 everything else was manual (ie. S3 buckets, databases, redis, web instances, etc). However, we were
 using Packer to build custom AMI's, so it was pretty easy to bring up new instances by hand. The 
 business had grown and our clients were starting to question our disaster recovery ability. There
-was only one dev who understood how our infrastructe held together and it would take him a few 
+was only one dev who understood how our infrastructure held together and it would take him a few 
 hours to re-create the entire stack if something went down. 
 
 ## What's next?
@@ -32,10 +32,10 @@ That Friday we all got in a room and created a duplicate of production without u
 scripts. The only scripting we used was Packer and bash to re-build our AMI's, and that was only
 because they were fairly simple to understand. In order to learn Terraform, you first must 
 understand how to do everything manually. It took us 6 hours in total, not counting the hour break
-we took from lunch. While this was much longer than our 2 hour goal, we all had an unterstanding
+we took from lunch. While this was much longer than our 2 hour goal, we all had an understanding
 of how AWS works and what our app requires to run in production.
 
-The most important thing was, we noted down every single thing that we did. Any command we ran,
+The most important thing was we noted down every single thing that we did. Any command we ran,
 it's output, everything we clicked on in AWS (including screenshots), everything we talked about
 and every decision we made. It seemed excessive at the time, but it proved invaluable later.
 
@@ -59,7 +59,7 @@ We didn't care about CI/CD for our disaster recovery, we just wanted it up and r
 
 ### Step 3: The next scenario
 
-Next month had come around, and it was time to beat our 6 hour time. In order to properly test our
+Next month had come around, and it was time to beat our 6 hour time. In order to properly test
 my Terraform and Ansible scripts, I sat in the corner and tried to have as little input as possible.
 I gave my documentation to the team and they had a crack. Of course, it wasn't perfect. But every
 question they asked pointed out a flaw either in my scripts or my docs, so everything improved
@@ -86,19 +86,19 @@ employee who completed the scenario on her first week at the company.
 
 The best thing I took away from this was that Terraform makes it so easy for anyone to pick up
 and learn your infrastructure. Everything is already documented in Terraform code, everytime
-we scripted something, we could delete hundreds of lines from our wiki docs and replace it with
-a few dot points about how to run the script. Using Terraform might seem scary at first, but it's
-a lot less scary than manually clicking around the AWS Console which makes in incredibly hard to
-undo a mistake because you might forget what you changed. If you break something with Terraform,
-you can easily see what's changed and fix it in a few minutes.
+we scripted something, we could delete hundreds of lines from our manual documentation and replace 
+it with a few dot points about how to run the script. Using Terraform might seem scary at first, 
+but it's a lot less scary than manually clicking around the AWS Console which makes it incredibly 
+hard to undo a mistake because you might forget what you changed. If you break something with 
+Terraform, you can easily see what's changed and fix it in a few minutes.
 
 Another incredibly valuable part of Terraform is reduction of human errors. During a disaster, we 
 know that we'll make typos and miss thing due to the high stress situation. By removing humans from
-the recovery process, it would be much less stressful for us.
+the recovery process, it is much less stressful.
 
 By this point Terraform had cemented itself a place in my heart, and my hatred of manually building
 infrastructure had stated to grow. However I still wasn't 100% confident in my ability and was
 unaware of how to migrate existing resources into Terraform.
 
 In the next part I'll talk about when I started my new job and decided that our entire production
-infrastructe had to me managed with Terraform.
+infrastructure had to be managed with Terraform.
