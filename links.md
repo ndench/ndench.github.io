@@ -42,6 +42,7 @@ write an entire blog post about.
 * [Concurrency in PHP with Swoole](https://blog.andreiavram.ro/concurrency-php-swoole/), essentially goroutines in PHP.
 * Examples or implementing [design patters in PHP](https://github.com/domnikl/DesignPatternsPHP).
 * [7 reasons I switched back to PHP after 2 years on Rails](https://sivers.org/rails2php).
+* An explanation of [exploiting stream wrappers](https://thehiddenwiki.pw/blog/2017/08/31/exploitation-php-wrappers).
 
 
 # Symfony
@@ -99,6 +100,8 @@ write an entire blog post about.
 * A quick explanation of the [collector pattern](https://www.tomasvotruba.cz/blog/2018/06/14/collector-pattern-for-dummies/).
 * Why you should embrace the [Majestic Monolith](https://m.signalvnoise.com/the-majestic-monolith-29166d022228) especially with a small team.
 * [What's so great about OOP](https://kevinsmith.io/whats-so-great-about-oop) a comparison between procedural and object-oriented.
+* How to combat legacy code by treating it as [3rd party code](https://robertbasic.com/blog/legacy-code-is-3rd-party-code/).
+* A [series of posts about software architecture](https://herbertograca.com/tag/software-architecture/).
 
 
 # Testing
