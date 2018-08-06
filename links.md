@@ -107,13 +107,15 @@ write an entire blog post about.
 * A package for [snapshot testing in PHPUnit](https://hackernoon.com/a-package-for-snapshot-testing-in-phpunit-2e4558c07fe3).
 * How to write better tests and avoid [software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html).
 * Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
-* [Testing strategy with the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/.)
+* [Testing strategy with the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
+* An explanation of [exploratory testing](https://blog.usejournal.com/what-is-exploratory-testing-the-programmer-edition-881765411f2c).
 
 
 # DevOps
 
 * A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9)
 * How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line)
+* Overview of [Terraform 0.12: Rich Value Types](https://www.hashicorp.com/blog/terraform-0-12-rich-value-types).
 
 
 # Databases
@@ -123,7 +125,7 @@ write an entire blog post about.
 * A talk by Ondrej Mirtes on [zero downtime database migrations](https://www.youtube.com/watch?v=hMO63IC6R7c&feature=youtu.be)
 
 
-# Programming tools
+# Programming Tools
 
 * Want to "level up your PhpStorm game"? Check out [phpstorm.tips](http://phpstorm.tips). 
     A collection of small tips and tricks you can use to get better at PhpStorm.
@@ -139,6 +141,7 @@ write an entire blog post about.
 # Functional Programming
 
 * [Explanation of folds](https://medium.com/@zaid.naom/exploring-folds-a-powerful-pattern-of-functional-programming-3036974205c8) and why they're so great.
+* [Monads explained in C#](https://mikhail.io/2018/07/monads-explained-in-csharp-again/).
 
 # Regex
 
@@ -163,3 +166,7 @@ write an entire blog post about.
 * Some great tips to [cheat at design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886).
 * A super fun game that teaches you flexbox by killing zombies with a crossbow [Flexbox Zombies](https://flexboxzombies.com).
 * [The art of the error message](https://thestyleofelements.org/the-art-of-the-error-message-9f878d0bff80) digs into the design of showing errors to your users.
+
+# Development Processes
+
+* An argument for [not using standups and retros](https://medium.com/@jsonpify/you-dont-need-standup-9a74782517c1).
