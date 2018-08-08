@@ -28,7 +28,7 @@ write an entire blog post about.
 * How to effectively [use generators](https://medium.com/ifixit-engineering/functional-programming-with-php-generators-837a6c91b0e3).
 * Ever wondered how a framework holds together? [This post](https://kevinsmith.io/modern-php-without-a-framework)
     will walk you through building your own from open source components.
-* A YouTUbe playlist of talks at the [PHP UK Conference 2017](https://www.youtube.com/watch?list=PL_aPVo2HeGF-_djRi_UVWWLdkVpYQFnFm&v=RH74_sFjqzs).
+* A YouTube playlist of talks at the [PHP UK Conference 2017](https://www.youtube.com/watch?list=PL_aPVo2HeGF-_djRi_UVWWLdkVpYQFnFm&v=RH74_sFjqzs).
 * A YouTube playlist of talks at the [PHP UK Conference 2018](https://www.youtube.com/watch?v=59fbepJZ_3w&list=PL_aPVo2HeGF85tk74MDDOckZUNKg7-qiz).
 * Using classes and the `...` token to create [strictly typed arrays in PHP](https://medium.com/2dotstwice-connecting-the-dots/creating-strictly-typed-arrays-and-collections-in-php-37036718c921).
 * A pretty long video explaining [CQRS and event sourcing](https://www.youtube.com/watch?v=RfnySciLUhc).
@@ -43,16 +43,21 @@ write an entire blog post about.
 * Examples or implementing [design patters in PHP](https://github.com/domnikl/DesignPatternsPHP).
 * [7 reasons I switched back to PHP after 2 years on Rails](https://sivers.org/rails2php).
 * An explanation of [exploiting stream wrappers](https://thehiddenwiki.pw/blog/2017/08/31/exploitation-php-wrappers).
+* A simple explanation about [how MVC routers work](https://www.codediesel.com/php/how-do-mvc-routers-work/).
+* Busting some myths about [php performance](https://frederickvanbrabant.com/2018/07/24/php-performance.html).
+* A YouTube playlist from the [PHP fwdays'18 conference](https://www.youtube.com/watch?v=v1I57-_Rsv0&list=PLPcgQFk9n9y-iZ0Ez_r9xYzQtT0iJ_MxA&index=1).
+* Testing out a few ways to run [serverless PHP](https://medium.com/@stephenheron/serverless-php-9da3f00df5de).
 
 
 # Symfony
 
 * A great explanation of [security roles vs. voters](https://stovepipe.systems/post/symfony-security-roles-vs-voters).
+* An overview of [how the Symfony routing component works](https://code.tutsplus.com/tutorials/set-up-routing-in-php-applications-using-the-symfony-routing-component--cms-31231).
 
 
 # Javascript
 
-* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>>
+* Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>>.
 
 
 # Security
@@ -84,7 +89,7 @@ write an entire blog post about.
 * A post about [modular application architecture](https://www.goetas.com/blog/modular-application-architecture-intro/).
 * How to use [value objects like a pro](https://hackernoon.com/value-objects-like-a-pro-f1bfc1548c72) to perfec your domain model.
 * Examples of implementing common [design patterns in PHP](https://github.com/domnikl/DesignPatternsPHP).
-* A curated collection of project-based programming tutorials: [Build your own X](https://github.com/danistefanovic/build-your-own-x)
+* A curated collection of project-based programming tutorials: [Build your own X](https://github.com/danistefanovic/build-your-own-x).
 * A discussion about how object-oriented and functional programming can, and [should be used together](http://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html).
 * A great way of [combating legacy code by copy pasting a lot](https://matthiasnoback.nl/2018/04/combing-legacy-code-string-by-string/),
     allowing you to remove the original abstractions and come up with better ones.
@@ -95,13 +100,16 @@ write an entire blog post about.
 * Some concrete examples of how to [stop using if statements](https://code.joejag.com/2016/anti-if-the-missing-patterns.html).
 * A book explaning [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 * An article clearly explaining the [Liskov Substitution Principle](https://www.stitcher.io/blog/liskov-and-type-safety).
-* An example of how to migrate legacy code to use [dependency injection](https://matthiasnoback.nl/2018/06/road-to-dependency-injection/)
+* An example of how to migrate legacy code to use [dependency injection](https://matthiasnoback.nl/2018/06/road-to-dependency-injection/).
 * A lecture by Bob Martin about [SOLID principles of Object Oriented and Agile design](https://www.youtube.com/watch?v=TMuno5RZNeE).
 * A quick explanation of the [collector pattern](https://www.tomasvotruba.cz/blog/2018/06/14/collector-pattern-for-dummies/).
 * Why you should embrace the [Majestic Monolith](https://m.signalvnoise.com/the-majestic-monolith-29166d022228) especially with a small team.
 * [What's so great about OOP](https://kevinsmith.io/whats-so-great-about-oop) a comparison between procedural and object-oriented.
 * How to combat legacy code by treating it as [3rd party code](https://robertbasic.com/blog/legacy-code-is-3rd-party-code/).
 * A [series of posts about software architecture](https://herbertograca.com/tag/software-architecture/).
+* [The future of programming is dependent types](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878) - 
+    an explanation of how we can make type systems better.
+* A post explaining why [objects should be constructed in one go](https://matthiasnoback.nl/2018/07/objects-should-be-constructed-in-one-go/).
 
 
 # Testing
@@ -116,8 +124,8 @@ write an entire blog post about.
 
 # DevOps
 
-* A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9)
-* How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line)
+* A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9).
+* How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line).
 * Overview of [Terraform 0.12: Rich Value Types](https://www.hashicorp.com/blog/terraform-0-12-rich-value-types).
 
 
@@ -125,19 +133,19 @@ write an entire blog post about.
 
 * YouTube video about [How SQL databases came up with their algorithms](https://www.youtube.com/watch?v=wTPGW1PNy_Y).
 * [Safe database migrations operations](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) at Braintree.
-* A talk by Ondrej Mirtes on [zero downtime database migrations](https://www.youtube.com/watch?v=hMO63IC6R7c&feature=youtu.be)
+* A talk by Ondrej Mirtes on [zero downtime database migrations](https://www.youtube.com/watch?v=hMO63IC6R7c&feature=youtu.be).
 
 
 # Programming Tools
 
 * Want to "level up your PhpStorm game"? Check out [phpstorm.tips](http://phpstorm.tips). 
     A collection of small tips and tricks you can use to get better at PhpStorm.
-* Some more [PhpStorm tips for power users](https://www.stitcher.io/blog/phpstorm-tips-for-power-users)
+* Some more [PhpStorm tips for power users](https://www.stitcher.io/blog/phpstorm-tips-for-power-users).
 * Ever thought the MAN pages were too hard to understand, or just took too long to read? Check out the 
     [TL;DR man pages](https://laravel-news.com/tldr-pages).  A cli program which summarises the man pages for you.
 * Some really fun [programming tutorials and challenges](https://www.hackerrank.com).
 * A set of steps to follow to [always be automating](https://queue.acm.org/detail.cfm?id=3197520) and how you shouldn't accept manual work.
-* Use `git rebase --onto` to [rebase your feature branch from one branch to another](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another)
+* Use `git rebase --onto` to [rebase your feature branch from one branch to another](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another).
 * [GitHub tips and tricks](https://laravel-news.com/github-tips-tricks).
 
 
