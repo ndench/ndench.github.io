@@ -10,6 +10,7 @@ write an entire blog post about.
 
 # PHP
 
+* [How you can buy a elePHPant](https://www.phpclasses.org/blog/post/712-how-you-can-buy-the-PHP-elephant-for-sale.html).
 * Run PHP code agains almost every version of PHP ever released in one go with 
     [3v4l.org](https://3v4l.org). It even combines the output to make it easy to see the differences 
     between versions.
@@ -47,17 +48,25 @@ write an entire blog post about.
 * Busting some myths about [php performance](https://frederickvanbrabant.com/2018/07/24/php-performance.html).
 * A YouTube playlist from the [PHP fwdays'18 conference](https://www.youtube.com/watch?v=v1I57-_Rsv0&list=PLPcgQFk9n9y-iZ0Ez_r9xYzQtT0iJ_MxA&index=1).
 * Testing out a few ways to run [serverless PHP](https://medium.com/@stephenheron/serverless-php-9da3f00df5de).
+* An argument for using the [`iterable` type over the `array` type](https://steemit.com/php/@crell/php-never-type-hint-on-arrays).
+* Use nginx to route requests between a xdebug container and a non-xdebug container to [develop at full speed with xdebug](https://jtreminio.com/blog/developing-at-full-speed-with-xdebug/).
+* [Fabian Potencier implementing a blockchan in PHP](https://www.youtube.com/watch?v=2FBHiz7ANEI) (video).
+* [Weird behaviour of strtotime()](https://www.pixelstech.net/article/1533378413-The-confusing-strtotime()-function-in-PHP).
 
 
 # Symfony
 
 * A great explanation of [security roles vs. voters](https://stovepipe.systems/post/symfony-security-roles-vs-voters).
 * An overview of [how the Symfony routing component works](https://code.tutsplus.com/tutorials/set-up-routing-in-php-applications-using-the-symfony-routing-component--cms-31231).
+* [Tips for fast, reliable tests in Symfony](https://medium.com/@galopintitouan/tips-for-a-reliable-and-fast-test-suite-with-symfony-and-doctrine-813c37825b22).
+* [Run Symfony command asynchronously](https://blog.forma-pro.com/symfony-async-commands-f05052e3b205) with php-enqueue.
+* [CQRS is easy with the Symfony 4 Messenge Component](https://stefanoalletti.wordpress.com/2018/08/10/cqrs-is-easy-with-symfony-4-and-his-messanger-component).
 
 
 # Javascript
 
 * Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>>.
+* A great explanation of [why modern JavaScript is the way it is](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70).
 
 
 # Security
@@ -110,6 +119,13 @@ write an entire blog post about.
 * [The future of programming is dependent types](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878) - 
     an explanation of how we can make type systems better.
 * A post explaining why [objects should be constructed in one go](https://matthiasnoback.nl/2018/07/objects-should-be-constructed-in-one-go/).
+* [Guys, REST APIs are not Database](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4): Why CRUD !== REST.
+* [If you think of coding as the manipulation of data, you’re going to have a hard time writing object-oriented code.](https://kevinsmith.io/if-you-think-of-coding-as-the-manipulation-of-data-youre-going-to-have-a-hard-time-writing-object-oriented-code).
+* Using [negative architecture](https://matthiasnoback.nl/2018/08/negative-architecture-and-assumptions-about-code/) to reason about your code lets you easily make assumptions about how it behaves.
+* Why you should [declare all classes as final](https://ocramius.github.io/blog/when-to-declare-classes-final/).
+* [Resources to learn about SOLID design](https://barryvanveen.nl/blog/51-8-resources-to-learn-about-solid-design-principles).
+* A breakdown of [when to, and not-to use comments](https://matthiasnoback.nl/2018/08/more-code-comments/).
+* [The service locator anti-pattern](https://www.stitcher.io/blog/service-locator-anti-pattern).
 
 
 # Testing
@@ -181,3 +197,7 @@ write an entire blog post about.
 # Development Processes
 
 * An argument for [not using standups and retros](https://medium.com/@jsonpify/you-dont-need-standup-9a74782517c1).
+
+# Business
+
+* [Java will kill your startup. PHP will save it.](Java will kill your startup. PHP will save it): Why architecture + design > language + tools.
