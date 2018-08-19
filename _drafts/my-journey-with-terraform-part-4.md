@@ -1,27 +1,22 @@
 ---
-title: My Journey with Terraform - Part 4 - Infrastructure as code
+title: My Journey with Terraform - Part 4 - The state is not scary
 categories: terraform
 tags: terraform devops
 ---
 
 - short intro
-- started again at hyraiq
-    - use packer to build ami's and vagrant boxes
-    - store terraform state in s3, use dynamodb as state lock
-    - create almost everything with terraform, except:
-        - iam users and terraform backend
-        - initial route53 zone
-        - https certificate
-- to speed up developing ami's
-    - used vagrant boxes that could be reprovisioned
-    - use ec2 instances that could be reprovisioned
-    - main reason to choose ansible over shell scripts
-    - yaml > bash
-    - started using ansible galaxy roles
-- having everything in terraform had many benefits:
-    - easier to get other people across the infrastructure (not necessarily devops)
-    - everything is already documented
-    - much easier to come back to after months and re-teach yourself
+- import the state of existing assets
+    - s3 bucket
+    - route53 zone
+    - https certificate
+    - now all our infrastructure is in terraform
+        - minus terraform backend and iam roles
+- refactored hcl into submodules
+    - not scared of modiying state anymore
+    - didn't reuse any modules
+    - just separated code to make it easier to understand
+    - copied public modules
 - conclusion
-    - realised the benefits of modules once you've copy pasted enough hcl
-    - want everything in terraform
+    - modules make things great
+    - want to refactor everything to use modules
+    - everything in one big terraform directory

@@ -1,22 +1,20 @@
 ---
-title: My Journey with Terraform - Part 5 - The state is not scary
+title: My Journey with Terraform - Part 5 - Terraform my world
 categories: terraform
 tags: terraform devops
 ---
 
 - short intro
-- import the state of existing assets
-    - s3 bucket
-    - route53 zone
-    - https certificate
-    - now all our infrastructure is in terraform
-        - minus terraform backend and iam roles
-- refactored hcl into submodules
-    - not scared of modiying state anymore
-    - didn't reuse any modules
-    - just separated code to make it easier to understand
-    - copied public modules
+- aws architect said to use autoscaling groups
+    - this means we need a new deployment strategy
+- get everything into terraform and AWS
+    - ci/cd pipeline
+    - logging
+    - notifications
+- started again using 3rd party modules
+    - X lines of vpc hcl replaced with Y
+- separated internal modules so they could be reused
+    - infra and web for staging and production
 - conclusion
-    - modules make things great
-    - want to refactor everything to use modules
-    - everything in one big terraform directory
+    - terraform is slow now
+    - want to break it up into separate sections that run independently

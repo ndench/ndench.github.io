@@ -102,3 +102,5 @@ unaware of how to migrate existing resources into Terraform.
 
 In the next part I'll talk about when I started my new job and decided that our entire production
 infrastructure had to be managed with Terraform.
+
+**Update**: See [part 3 here]({% post_url 2018-08-19-my-journey-with-terraform-part-3 %}).
