@@ -200,4 +200,4 @@ write an entire blog post about.
 
 # Business
 
-* [Java will kill your startup. PHP will save it.](Java will kill your startup. PHP will save it): Why architecture + design > language + tools.
+* [Java will kill your startup. PHP will save it.](https://medium.com/@alexkatrompas/java-will-kill-your-startup-php-will-save-it-f3051968145d): Why architecture + design > language + tools.
