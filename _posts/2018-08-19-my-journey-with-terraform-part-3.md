@@ -28,9 +28,7 @@ infrastructure. I had seen the value in infrastructure as code:
 * it's easily repeatable
 * it serves as up to date documentation
 * it dramatically sped up the process of creating new servers
-
-TODO: removing stress and human errors.  TODO: when I come back to it months
-later, or when someone else needs to make changes
+* decreases stress and human errors
 
 ## What's next?
 
@@ -38,10 +36,8 @@ Around the start of the year, I left my old job to join a start-up as one of
 two technical co-founders. It became my job to create and manage our
 infrastructure and I was determined to do it well. I needed to automate as much
 of it as possible -  between the two of us devs, we had a lot of work ahead of
-us to build a killer product. We couldn't afford to waste time manually doing
-the same things over and over.
-
-TODO: Examples of over and over
+us to build a killer product. We couldn't afford to waste time manually 
+re-creating infrastructure or rebuilding servers.
 
 ### Step 1: The dev environment
 
@@ -63,15 +59,17 @@ developer wants to completely reset their environment, running `vagrant destroy
 
 ### Step 2: Remote backend
 
-TODO: Explain Terraform state in one or two sentences
+Terraform needs to know the current state of the resources it manages before
+it's able to make changes. It uses this state to create plans and make changes
+to the infrastructure.
 
-Until now, I had been storing the Terraform state in the git repo. This works
-fine if there's only one dev working on it but if two people are applying
-changes at the same time, they'll end up destroying each others work and not
-understanding what's happening. You also don't want to have merge conflicts in
-these state files as they can be quite complex to resolve manually.
+Until now, I had been storing the Terraform state in the git repo as a
+`terraform.tfstate` file. This works fine if there's only one dev working on it
+but if two people are applying changes at the same time, Terraform won't know
+about the other persons changes and there will be conflicts. Then you'll end
+up with merge conflicts in the state file, which is not something you want.
 
-So I decided to set up a remote backend for Terraform. It was much easier than
+Terraform recommends setting up a remote backend, which was much easier than
 I expected:
 
 - Create a Dynamo DB table
@@ -80,12 +78,20 @@ I expected:
 
 Now when Terraform runs, it uses the Dynamo table to lock the state so that no
 one else can make changes at the same time. Then it stores all the state in S3,
-so that everyone gets up to date state. I still don't recommend having two
-people making changes at the same time, because you'll still destroy each
-others resources, but at least you prevent conflicts.
+so that everyone gets up to date state. You still run into problems when two
+people are making changes at the same time:
 
-TODO: Doesn't it prevent the other user from being able to run terraform while
-it's locked? So you can't even really have 2 people running it?
+1. Alice creates `resourceA` - adding it to the remote state
+2. Once the `terraform apply` command has finished, Alice has released the state lock
+2. Bob tries to create `resourceB`
+    1. Terraform pulls down the remote state and learns about `resourceA`
+    2. Bob's local code doesn't have any configuration for `resourceA`
+    3. Terraform thinks Bob wants to delete `resourceA`
+
+This is much better because Bob will know that someone has created `resourceA`
+and can wait until Alice has merged her branch before continuing. Without remote
+state, Bob could apply his changes then be confronted with merge conflicts in his
+`terraform.tfstate` file when trying to merge his code with Alice's.
 
 ### Step 3: Create all the things
 
