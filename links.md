@@ -186,6 +186,7 @@ write an entire blog post about.
     about what he looks for in a PR to his projects.
 * A walkthrough for your [first open source PR](https://mattstauffer.com/blog/how-to-contribute-to-an-open-source-github-project-using-your-own-fork/).
 * Avoid disappointent by [makinig smaller pull requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/).
+* [A bitter guide to open source](https://medium.com/codezillas/a-bitter-guide-to-open-source-a8e3b6a3c1c4).
 
 
 # Design
@@ -193,6 +194,7 @@ write an entire blog post about.
 * Some great tips to [cheat at design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886).
 * A super fun game that teaches you flexbox by killing zombies with a crossbow [Flexbox Zombies](https://flexboxzombies.com).
 * [The art of the error message](https://thestyleofelements.org/the-art-of-the-error-message-9f878d0bff80) digs into the design of showing errors to your users.
+* [Optimistic UI](https://uxplanet.org/optimistic-1000-34d9eefe4c05) is a UI that assumes actions will be successful in order to make a smoother flow for users.
 
 # Development Processes
 
