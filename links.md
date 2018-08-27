@@ -142,7 +142,7 @@ write an entire blog post about.
 
 * A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9).
 * How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line).
-* Overview of [Terraform 0.12: Rich Value Types](https://www.hashicorp.com/blog/terraform-0-12-rich-value-types).
+* Overview of [Terraform 0.12](https://www.hashicorp.com/blog/terraform-0-1-2-preview).
 
 
 # Databases
