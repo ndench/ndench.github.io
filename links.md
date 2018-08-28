@@ -126,6 +126,7 @@ write an entire blog post about.
 * [Resources to learn about SOLID design](https://barryvanveen.nl/blog/51-8-resources-to-learn-about-solid-design-principles).
 * A breakdown of [when to, and not-to use comments](https://matthiasnoback.nl/2018/08/more-code-comments/).
 * [The service locator anti-pattern](https://www.stitcher.io/blog/service-locator-anti-pattern).
+* [Code should be like an orange](https://michaelfeathers.silvrback.com/orange-code) and have a better surface area to volume ration.
 
 
 # Testing
@@ -203,3 +204,4 @@ write an entire blog post about.
 # Business
 
 * [Java will kill your startup. PHP will save it.](https://medium.com/@alexkatrompas/java-will-kill-your-startup-php-will-save-it-f3051968145d): Why architecture + design > language + tools.
+* [How to be technical leader](https://medium.com/a-software-engineer/being-a-technical-leader-5284548f7749).
