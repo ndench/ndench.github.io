@@ -52,6 +52,8 @@ write an entire blog post about.
 * Use nginx to route requests between a xdebug container and a non-xdebug container to [develop at full speed with xdebug](https://jtreminio.com/blog/developing-at-full-speed-with-xdebug/).
 * [Fabian Potencier implementing a blockchan in PHP](https://www.youtube.com/watch?v=2FBHiz7ANEI) (video).
 * [Weird behaviour of strtotime()](https://www.pixelstech.net/article/1533378413-The-confusing-strtotime()-function-in-PHP).
+* [What's new in PHP 7.3 using diffs](https://www.tomasvotruba.cz/blog/2018/08/16/whats-new-in-php-73-in-30-seconds-in-diffs/).
+* [Thoughts on PHP 8](https://externals.io/message/102415).
 
 
 # Symfony
