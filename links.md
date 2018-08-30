@@ -81,8 +81,6 @@ write an entire blog post about.
 * An [entertaining read](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
     describing how easy it would be to harvest credit card numbers from a large portion of sites on 
     the internet. Just by creating a dodgy npm package and getting other popular packages to depend on it.
-* An [explanation of CQRS](https://matthiasnoback.nl/2018/01/simple-cqrs-reduce-coupling-allow-the-model-to-evolve/)
-    which keeps popping up everywhere but until now I've never really understood it.
 * Check if your site has an A+ security rating with [securityheaders.com](https://securityheaders.com/).
 * Not sure what a content security policy is? [Content Security Policy 101](https://christoph-rumpel.com/2018/03/content-security-policy-101) has got your back.
 * How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords).
@@ -129,6 +127,8 @@ write an entire blog post about.
 * A breakdown of [when to, and not-to use comments](https://matthiasnoback.nl/2018/08/more-code-comments/).
 * [The service locator anti-pattern](https://www.stitcher.io/blog/service-locator-anti-pattern).
 * [Code should be like an orange](https://michaelfeathers.silvrback.com/orange-code) and have a better surface area to volume ration.
+* An [explanation of CQRS](https://matthiasnoback.nl/2018/01/simple-cqrs-reduce-coupling-allow-the-model-to-evolve/)
+    which keeps popping up everywhere but until now I've never really understood it.
 
 
 # Testing
