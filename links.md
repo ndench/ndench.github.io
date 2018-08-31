@@ -11,6 +11,7 @@ write an entire blog post about.
 # PHP
 
 * [How you can buy a elePHPant](https://www.phpclasses.org/blog/post/712-how-you-can-buy-the-PHP-elephant-for-sale.html).
+* Identify every breed of the PHP Elephpant with [A filed Guide to Elephpants](https://afieldguidetoelephpants.net/).
 * Run PHP code agains almost every version of PHP ever released in one go with 
     [3v4l.org](https://3v4l.org). It even combines the output to make it easy to see the differences 
     between versions.
