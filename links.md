@@ -55,6 +55,8 @@ write an entire blog post about.
 * [Weird behaviour of strtotime()](https://www.pixelstech.net/article/1533378413-The-confusing-strtotime()-function-in-PHP).
 * [What's new in PHP 7.3 using diffs](https://www.tomasvotruba.cz/blog/2018/08/16/whats-new-in-php-73-in-30-seconds-in-diffs/).
 * [Thoughts on PHP 8](https://externals.io/message/102415).
+* [The story of PHP-istan vs. Ruby-istan](https://medium.com/@tedstein/thanks-for-correcting-me-on-expressjs-and-meteor-21f6409e9b71)
+    and the differences between naked PHP warriors and those protected by powerful frameworks.
 
 
 # Symfony
@@ -79,9 +81,6 @@ write an entire blog post about.
     security vulnerability.
 * A really great and in depth look at build secure PHP web applications by
     [Paragon Initiative](https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software).
-* An [entertaining read](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
-    describing how easy it would be to harvest credit card numbers from a large portion of sites on 
-    the internet. Just by creating a dodgy npm package and getting other popular packages to depend on it.
 * Check if your site has an A+ security rating with [securityheaders.com](https://securityheaders.com/).
 * Not sure what a content security policy is? [Content Security Policy 101](https://christoph-rumpel.com/2018/03/content-security-policy-101) has got your back.
 * How to [securely hash passwords in vanilla PHP](https://php.earth/docs/security/passwords).
@@ -130,6 +129,8 @@ write an entire blog post about.
 * [Code should be like an orange](https://michaelfeathers.silvrback.com/orange-code) and have a better surface area to volume ration.
 * An [explanation of CQRS](https://matthiasnoback.nl/2018/01/simple-cqrs-reduce-coupling-allow-the-model-to-evolve/)
     which keeps popping up everywhere but until now I've never really understood it.
+* Design for flexibility, not for perfection and [stop future proofing software](https://medium.com/@george3d6/stop-future-proofing-software-c984cbd65e78).
+* A collection of posts about [software anti-patterns](https://exceptionnotfound.net/tag/anti-patterns/).
 
 
 # Testing
@@ -208,3 +209,15 @@ write an entire blog post about.
 
 * [Java will kill your startup. PHP will save it.](https://medium.com/@alexkatrompas/java-will-kill-your-startup-php-will-save-it-f3051968145d): Why architecture + design > language + tools.
 * [How to be technical leader](https://medium.com/a-software-engineer/being-a-technical-leader-5284548f7749).
+
+
+# Jokes
+
+* [How to design for the modern web](https://medium.com/commitlog/how-to-design-for-the-modern-web-52eaa926bae2).
+* An [entertaining read](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
+    describing how easy it would be to harvest credit card numbers from a large portion of sites on 
+    the internet. Just by creating a dodgy npm package and getting other popular packages to depend on it.
+
+# General
+
+* Learn how to learn things: [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/).
