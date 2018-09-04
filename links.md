@@ -131,6 +131,7 @@ write an entire blog post about.
     which keeps popping up everywhere but until now I've never really understood it.
 * Design for flexibility, not for perfection and [stop future proofing software](https://medium.com/@george3d6/stop-future-proofing-software-c984cbd65e78).
 * A collection of posts about [software anti-patterns](https://exceptionnotfound.net/tag/anti-patterns/).
+* How to [make e technical debt payment plan](https://trishkhoo.com/2018/09/make-a-technical-debt-payment-plan/).
 
 
 # Testing
@@ -221,3 +222,4 @@ write an entire blog post about.
 # General
 
 * Learn how to learn things: [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/).
+* How to [conduct a technical interview](https://adamsitnik.com/Conducting-Interview/).
