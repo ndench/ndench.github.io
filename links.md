@@ -72,6 +72,7 @@ write an entire blog post about.
 
 * Everything new in JavaScript from 2016-2018 <https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e>>.
 * A great explanation of [why modern JavaScript is the way it is](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70).
+* [How to split your chucks with Webpack](https://hackernoon.com/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758).
 
 
 # Security
@@ -132,6 +133,8 @@ write an entire blog post about.
 * Design for flexibility, not for perfection and [stop future proofing software](https://medium.com/@george3d6/stop-future-proofing-software-c984cbd65e78).
 * A collection of posts about [software anti-patterns](https://exceptionnotfound.net/tag/anti-patterns/).
 * How to [make e technical debt payment plan](https://trishkhoo.com/2018/09/make-a-technical-debt-payment-plan/).
+* [Nature doesn't architect for scale, and neither should you](https://jcooney.net/post/2018/09/scale.html).
+* How to tidy your code in a piecemeal daily approach: [The life changeng magic of tidying up code](https://medium.com/@kentbeck_7670/what-to-tidy-28cb46e55009).
 
 
 # Testing
