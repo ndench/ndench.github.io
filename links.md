@@ -172,6 +172,7 @@ write an entire blog post about.
 * A set of steps to follow to [always be automating](https://queue.acm.org/detail.cfm?id=3197520) and how you shouldn't accept manual work.
 * Use `git rebase --onto` to [rebase your feature branch from one branch to another](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another).
 * [GitHub tips and tricks](https://laravel-news.com/github-tips-tricks).
+* A great post from GitHub about [how to undo (almost) anything with Git](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/).
 
 
 # Functional Programming
