@@ -226,3 +226,4 @@ write an entire blog post about.
 
 * Learn how to learn things: [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/).
 * How to [conduct a technical interview](https://adamsitnik.com/Conducting-Interview/).
+* How to [effectively work from home](https://watirmelon.blog/2018/09/07/three-years-of-working-from-home/).
