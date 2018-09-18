@@ -228,3 +228,4 @@ write an entire blog post about.
 * Learn how to learn things: [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/).
 * How to [conduct a technical interview](https://adamsitnik.com/Conducting-Interview/).
 * How to [effectively work from home](https://watirmelon.blog/2018/09/07/three-years-of-working-from-home/).
+* 8 steps to [fail as an engineering manager](https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a).
