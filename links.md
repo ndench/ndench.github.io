@@ -135,6 +135,7 @@ write an entire blog post about.
 * How to [make e technical debt payment plan](https://trishkhoo.com/2018/09/make-a-technical-debt-payment-plan/).
 * [Nature doesn't architect for scale, and neither should you](https://jcooney.net/post/2018/09/scale.html).
 * How to tidy your code in a piecemeal daily approach: [The life changeng magic of tidying up code](https://medium.com/@kentbeck_7670/what-to-tidy-28cb46e55009).
+* Follow the [everybody poops rule](http://rosstuck.com/the-everybody-poops-rule) too keep your poop in a special room with a door on it.
 
 
 # Testing

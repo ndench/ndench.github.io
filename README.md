@@ -49,3 +49,6 @@ Vim as a PHP ide
 
 handling large files 
 * https://www.sitepoint.com/performant-reading-big-files-php/
+
+Move to AWS S3:
+* https://jekyllrb.com/docs/deployment/
