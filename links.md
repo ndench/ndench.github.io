@@ -57,6 +57,8 @@ write an entire blog post about.
 * [Thoughts on PHP 8](https://externals.io/message/102415).
 * [The story of PHP-istan vs. Ruby-istan](https://medium.com/@tedstein/thanks-for-correcting-me-on-expressjs-and-meteor-21f6409e9b71)
     and the differences between naked PHP warriors and those protected by powerful frameworks.
+* [Using bitmask constant arguments](https://medium.com/@liamhammett/bitmask-constant-arguments-in-php-cf32bf35c73) to pass
+    multiple boolean flags in a single argument.
 
 
 # Symfony
@@ -136,6 +138,7 @@ write an entire blog post about.
 * [Nature doesn't architect for scale, and neither should you](https://jcooney.net/post/2018/09/scale.html).
 * How to tidy your code in a piecemeal daily approach: [The life changeng magic of tidying up code](https://medium.com/@kentbeck_7670/what-to-tidy-28cb46e55009).
 * Follow the [everybody poops rule](http://rosstuck.com/the-everybody-poops-rule) too keep your poop in a special room with a door on it.
+* [Anemic vs Rich Domain Model](https://web-techno.net/anemic-domain-model).
 
 
 # Testing
