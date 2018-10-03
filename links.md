@@ -209,10 +209,13 @@ write an entire blog post about.
 * A super fun game that teaches you flexbox by killing zombies with a crossbow [Flexbox Zombies](https://flexboxzombies.com).
 * [The art of the error message](https://thestyleofelements.org/the-art-of-the-error-message-9f878d0bff80) digs into the design of showing errors to your users.
 * [Optimistic UI](https://uxplanet.org/optimistic-1000-34d9eefe4c05) is a UI that assumes actions will be successful in order to make a smoother flow for users.
+* The journey of a dev moving from [semantic CSS to utility CSS](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/).
 
 # Development Processes
 
 * An argument for [not using standups and retros](https://medium.com/@jsonpify/you-dont-need-standup-9a74782517c1).
+* [It's not Agile, it's you](https://headspring.com/2018/10/02/its-not-agile-its-you-agile-challenges-pt-1/).
+
 
 # Business
 
