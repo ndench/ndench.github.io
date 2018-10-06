@@ -59,6 +59,8 @@ write an entire blog post about.
     and the differences between naked PHP warriors and those protected by powerful frameworks.
 * [Using bitmask constant arguments](https://medium.com/@liamhammett/bitmask-constant-arguments-in-php-cf32bf35c73) to pass
     multiple boolean flags in a single argument.
+* Simple examples for how to [refactor your legacy PHP code](https://hackernoon.com/refactor-your-php-legacy-code-real-projects-examples-da9edf03ff4b).
+* [Evolution of a PHP developer](https://medium.com/@DonnaInsolita/the-evolution-of-php-developer-4d3c2fdfa1ae) in code snippets.
 
 
 # Symfony
@@ -139,6 +141,7 @@ write an entire blog post about.
 * How to tidy your code in a piecemeal daily approach: [The life changeng magic of tidying up code](https://medium.com/@kentbeck_7670/what-to-tidy-28cb46e55009).
 * Follow the [everybody poops rule](http://rosstuck.com/the-everybody-poops-rule) too keep your poop in a special room with a door on it.
 * [Anemic vs Rich Domain Model](https://web-techno.net/anemic-domain-model).
+* Matthias Noback on [when to add an interface to a class](https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/).
 
 
 # Testing
@@ -236,3 +239,10 @@ write an entire blog post about.
 * How to [conduct a technical interview](https://adamsitnik.com/Conducting-Interview/).
 * How to [effectively work from home](https://watirmelon.blog/2018/09/07/three-years-of-working-from-home/).
 * 8 steps to [fail as an engineering manager](https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a).
+* [JetBrains - State of the developer ecosystem 2018](https://www.jetbrains.com/research/devecosystem-2018).
+
+
+# Tutorials
+
+* [Set up a single page Vue+Symfony4](https://thecodingmachine.io/building-a-single-page-application-with-symfony-4-and-vuejs) 
+    app with docker, migrations, static analysis, fixtures.

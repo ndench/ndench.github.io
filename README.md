@@ -12,6 +12,7 @@ Symfony Deployer CircleCI with build artifacts
 * Accessing artifact: https://circleci.com/docs/api/v1-reference/#build-artifacts
 * Deploying PHP with Deployer.org: https://www.sitepoint.com/deploying-php-applications-with-deployer/
 * Overriding deploy:update_code: https://deployer.org/docs/flow#deploy:update_code
+* Setting up Deployer: https://www.codepicky.com/php-automatic-deploy/
 
 Slack Webhook in PHP
 
