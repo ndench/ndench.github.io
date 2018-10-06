@@ -21,16 +21,16 @@ headers is the Content Security Policy.
 
 ## What problems does it solve?
 
-The browser will only load approved content defined in a Content Security Policy header if one is
-present. If not, it will load anything it's told to. This default behaviour is the basis for many
-cyber attacks today, the most common of which is an XSS (Cross Site Scripting) attack.
+The browser will load anything it's told, add a Content Security Policy and it wil only load
+approved content. This default behaviour is the basis for many cyber attacks today, the most common
+of which is an XSS (Cross Site Scripting) attack.
 
 The basics of an XSS attack is when an attacker will trick the browser into loading untrusted
 content in order to attack a websites visitors. As an example, take a look at
 [hack-yourself-first.com](http://hack-yourself-first.com) which is a great website set up by [Troy
 Hunt](https://www.troyhunt.com) for everyone to learn how to secure their site by hacking another.
 
-Do a search on the site and you'll see your seach terms reflected back to you, and in the source 
+Do a search on the site and you'll see your search terms reflected back to you, and in the source 
 you'll find:
 
 ```html
@@ -73,6 +73,8 @@ tag. Another XSS attack could be adding a comment with this as the comment body:
 
 Then when a user visits the page, the browser will automatically load and run `stealcookies.js`,
 which doesn't sound pleasant.
+
+Next up, we'll see how we can prevent these sort of attacks with a Content Security Policy.
 
 
 ## How will it make my site more secure?
@@ -139,6 +141,11 @@ You could set `default-src` to `'self'`, then everything not specified would be 
 from your site, but it's a good idea to set it to `'none'` and explicitly list each directive your
 site requires.
 
+A CSP can be easy to mess up. If you make it too strict your application won't work because it can't
+load it's required assets. If you make it too lax, it becomes useless and you might as well not have
+it. For some great examples check out [Useless CSP](https://uselesscsp.com/) for a list of fairly
+high profile sites that did not implement their CSP correctly.
+
 
 ### CSP report-only
 
@@ -176,11 +183,11 @@ I started out by adding the header to my nginx config:
 add_header Content-Security-Policy-Report-Only "default-src: 'none'; ..."
 ```
 
-A problem quickly arose when I needed to change the header, meaning I had to rebuild my dev vm as
-well as staging and production just to allow fonts.googleapis.com. Setting the header in app code 
-makes changes easier to deploy. Doing this manually with Symfony would require using the PHP 
-[header](https://secure.php.net/manual/en/function.header.php) function, or
-setting it on every Symfony Response:
+A problem quickly arose when I needed to change the header, meaning I had to rebuild my dev virtual
+machine as well as staging and production just to allow fonts.googleapis.com. Setting the header in
+app code makes changes easier to deploy. Doing this manually with Symfony would require using the
+PHP [header](https://secure.php.net/manual/en/function.header.php) function, or setting it on every
+Symfony Response:
 
 ```php
 <?php
@@ -192,10 +199,16 @@ header('Content-Security-Policy-Report-Only "default-src \'none\'; ..."');
 $response->headers->set('Content-Security-Policy-Report-Only', "default-src 'none'; ...','");
 ```
 
-But this very quickly gets large and unmaintainable, our current CSP is hundreds of characeters
+But this very quickly gets large and unmaintainable, our current CSP is hundreds of characters
 long. So I turned to the
 [NelmioSecurityBundle](https://github.com/nelmio/NelmioSecurityBundle#content-security-policy) for
-Symfony, which allows me to use nice Yaml config.
+Symfony, which allows me to use nice Yaml config. There are good libraries for almost every
+framework, with a quick Google search I was able to find:
+
+- [Helmet](https://github.com/helmetjs/helmet) for Express.js
+- [Secure Headers](https://github.com/twitter/secure_headers) for Rails
+- [Django-CSP](https://github.com/mozilla/django-csp) for Django.
+- Spring Boot has support built in with `@EnableWebSecurity`
 
 
 ### Step one - deny all
@@ -299,8 +312,8 @@ nelmio_security:
 Checking report-uri revealed that every page load was getting hundreds of errors
 in production. The investigation uncovered that a couple of problems:
 
-- our webpack config was running the production build with `devtool: eval` enabled 😲
-    - easily solved by changing the config
+- our webpack config was misconfigured and using `devtool: eval` for the production 😲
+    - easily solved by changing the config to only allow `eval` for development builds
 - we were using `<a href="javascript:void(0)">` to make links work like buttons to deal with
     different browser inconsistencies
     - solved by using `tabindex="0"` and dropping the `href` attribute
