@@ -108,7 +108,7 @@ Some of the common directives are:
 
 - `script-src`  - where we can load javascript from
 - `style-src`   - where we can load CSS from
-- `image-src`   - where we can load images from
+- `img-src`   - where we can load images from
 - `font-src`    - where we can load fonts from
 - `connect-src` - where scripts can load urls from (ie. Fetch, XMLHttpRequest, etc)
 - `default-src` - applied to every directive not explicitly specified
@@ -122,7 +122,7 @@ A basic CSP header looks like this:
 
 ```
 Content-Security-Policy: default-src 'none'; script-src: 'self'; style-src: 'self'
-fonts.googleapis.com; image-src: instagram.com; report-uri: example.report-uri.com/r/d/csp/enforce
+fonts.googleapis.com; img-src: instagram.com; report-uri: example.report-uri.com/r/d/csp/enforce
 ```
 
 Which allows:
