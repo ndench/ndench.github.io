@@ -218,6 +218,7 @@ write an entire blog post about.
 
 * An argument for [not using standups and retros](https://medium.com/@jsonpify/you-dont-need-standup-9a74782517c1).
 * [It's not Agile, it's you](https://headspring.com/2018/10/02/its-not-agile-its-you-agile-challenges-pt-1/).
+* [Product management mental models](https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b).
 
 
 # Business
