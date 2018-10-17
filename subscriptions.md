@@ -16,3 +16,4 @@ I'm subscribed to quite a lot of email newsletters. This is where I store that l
 - [Websec.io](https://websec.io/) - PHP security.
 - [Herberto Graca](https://herbertograca.com) - interesting IT stuff.
 - [JetBrains - PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/category/php-annotated-monthly/) - PHP news
+- [Kent C. Dodds](https://blog.kentcdodds.com/) - Make awesome JavaScript

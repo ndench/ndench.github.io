@@ -186,6 +186,7 @@ write an entire blog post about.
 
 * [Explanation of folds](https://medium.com/@zaid.naom/exploring-folds-a-powerful-pattern-of-functional-programming-3036974205c8) and why they're so great.
 * [Monads explained in C#](https://mikhail.io/2018/07/monads-explained-in-csharp-again/).
+* Super in-depth Haskell guide: [What I wish I knew when learning Haskell](http://dev.stephendiehl.com/hask/)
 
 # Regex
 
