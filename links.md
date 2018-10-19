@@ -61,6 +61,7 @@ write an entire blog post about.
     multiple boolean flags in a single argument.
 * Simple examples for how to [refactor your legacy PHP code](https://hackernoon.com/refactor-your-php-legacy-code-real-projects-examples-da9edf03ff4b).
 * [Evolution of a PHP developer](https://medium.com/@DonnaInsolita/the-evolution-of-php-developer-4d3c2fdfa1ae) in code snippets.
+* [Picking the best string interpolation](https://www.tomasvotruba.cz/blog/2018/10/11/hi-my-name-is-tom-conctat-vs-in-sprintf-vs-in-string-variables/).
 
 
 # Symfony
@@ -214,6 +215,7 @@ write an entire blog post about.
 * [The art of the error message](https://thestyleofelements.org/the-art-of-the-error-message-9f878d0bff80) digs into the design of showing errors to your users.
 * [Optimistic UI](https://uxplanet.org/optimistic-1000-34d9eefe4c05) is a UI that assumes actions will be successful in order to make a smoother flow for users.
 * The journey of a dev moving from [semantic CSS to utility CSS](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/).
+* [How to create a good design as a developer](https://medium.com/plint-sites/how-to-create-a-good-design-as-a-developer-9240bb2e9c3d).
 
 # Development Processes
 
