@@ -143,6 +143,7 @@ write an entire blog post about.
 * Follow the [everybody poops rule](http://rosstuck.com/the-everybody-poops-rule) too keep your poop in a special room with a door on it.
 * [Anemic vs Rich Domain Model](https://web-techno.net/anemic-domain-model).
 * Matthias Noback on [when to add an interface to a class](https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/).
+* [OOP is dead, long live OOP](https://www.gamedev.net/blogs/entry/2265481-oop-is-dead-long-live-oop/)
 
 
 # Testing
