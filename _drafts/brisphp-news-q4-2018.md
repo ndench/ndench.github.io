@@ -10,3 +10,4 @@ tags: brisphp php news
 * Upgrading to 7.3 <https://github.com/php/php-src/blob/PHP-7.3/UPGRADING>
 * Typed properties in 7.4: <https://wiki.php.net/rfc/typed_properties_v2> <https://externals.io/message/102333#102867>
 * Yii3 <https://github.com/yiisoft/yii-core/blob/master/UPGRADE.md>
+* PostgreSQL 11 <https://www.postgresql.org/about/news/1894/>
