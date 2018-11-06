@@ -146,6 +146,7 @@ write an entire blog post about.
 * [OOP is dead, long live OOP](https://www.gamedev.net/blogs/entry/2265481-oop-is-dead-long-live-oop/)
 * DDD explained in 5 minutes: [DDD 101](https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8).
 * Negotiate features instead of quality to meet deadline: [Don't make squirrel burgers](http://leewaterman.com/dont-make-squirrel-burgers/).
+* Matthias Nobackn on [When to use final classes](https://matthiasnoback.nl/2018/09/final-classes-by-default-why/).
 
 
 # Testing
