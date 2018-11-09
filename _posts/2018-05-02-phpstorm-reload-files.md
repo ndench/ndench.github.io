@@ -1,5 +1,5 @@
 ---
-title: Make PhpStom automatically reload files from disk
+title: Make PhpStorm automatically reload files from disk
 categories: phpstorm
 tags: phpstorm ide
 ---
