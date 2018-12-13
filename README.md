@@ -53,3 +53,6 @@ handling large files
 
 Move to AWS S3:
 * https://jekyllrb.com/docs/deployment/
+
+Test ansible roles:
+* https://www.nickhammond.com/testing-your-ansible-roles-with-vagrant/
