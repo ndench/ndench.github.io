@@ -148,6 +148,7 @@ write an entire blog post about.
 * Negotiate features instead of quality to meet deadline: [Don't make squirrel burgers](http://leewaterman.com/dont-make-squirrel-burgers/).
 * Matthias Nobackn on [When to use final classes](https://matthiasnoback.nl/2018/09/final-classes-by-default-why/).
 * [Immutable documentation](https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/) - splitting how-docs from why-docs
+* [7 Tips to write exceptions everyone will love](https://www.tomasvotruba.cz/blog/2018/09/17/7-tips-to-write-exceptions-everyone-will-love/) 
 
 
 # Testing
@@ -242,6 +243,8 @@ write an entire blog post about.
 * An [entertaining read](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
     describing how easy it would be to harvest credit card numbers from a large portion of sites on 
     the internet. Just by creating a dodgy npm package and getting other popular packages to depend on it.
+* [Programming sucks](https://www.stilldrinking.org/programming-sucks)
+
 
 # General
 
