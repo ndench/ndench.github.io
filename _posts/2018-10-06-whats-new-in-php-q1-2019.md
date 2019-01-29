@@ -36,7 +36,7 @@ security support until the end of the year, while 7.2 and 7.3 still have a while
 
 If you're struggling to upgrade your codebase, whether it be a PHP version or a framework version,
 you should definitely take a look at [rector](https://github.com/RectorPHP/Rector) which can
-automatically refactor and upgrade you code base for you.
+automatically refactor and upgrade your code base for you.
 
 ## PHP 7.3 was released
 
@@ -62,14 +62,15 @@ guide](https://github.com/php/php-src/blob/PHP-7.3/UPGRADING) for help.
 
 So far, there have been a handful of RFC's accepted for PHP 7.4. Originally meant to only add
 deprecations to prepare for 8.0, we now get some exciting new features.
-[stictcher.io](https://stitcher.io/blog/new-in-php-74) provides a great up-to-date overview of the
+[stitcccher.io](https://stitcher.io/blog/new-in-php-74) provides a great up-to-date overview of the
 new features.
 
 
-### Foregin Function Interface
+### Foreign Function Interface
 
 A foreign function interface allows calling C functions and data types from PHP. It's modelled after
-a similar feature in both Python and Lua and will allow C extensions to be written in pure PHP.
+a similar feature in both Python and Lua and will allow PHP extensions to be written in PHP, albeit
+with a lot of C code in what is essentially a HEREDOC.
 Here's an example from the [rfc](https://wiki.php.net/rfc/ffi) that shows defining some C structs,
 and calling a C function:
 
@@ -108,7 +109,7 @@ var_dump($tz);
 ### Typed properties V2
 
 Typed properties has been propesed and rejected before, but along came version 2 of the proposal,
-fixing up the issues raised the first time around, it has now been accepted for PHP 7.2. Here's an
+fixing up the issues raised the first time around, it has now been accepted for PHP 7.4. Here's an
 example from [the rfc](https://wiki.php.net/rfc/typed_properties_v2):
 
 What type-safe code currently looks like:
@@ -163,7 +164,7 @@ No longer will we have to make every single property private. Of course if you w
 logic around setting the value, then it will need to be private.
 
 
-### Null coalescing assignment operatorof course it will
+### Null coalescing assignment operator
 
 In a pre-PHP7 world, we used to see code like this a lot:
 
@@ -198,8 +199,8 @@ Preloading is a performance improvement that allows loading PHP files into memor
 they never need to be accessed or re-compiled again. This means you could load your framework
 or even your entire application into memory to drastically reduce the overhead of PHP.
 
-This does come at a cost though, if you enable preloading you MUST restart your server whenever
-files changed. This is because the files are never read from the disk again.
+This does come at a cost though, if you enable preloading you MUST restart your server
+(php-fpm/apache) whenever files changed. This is because the files are never read from the disk again.
 
 For more information, check [the rfc](https://wiki.php.net/rfc/preload).
 
