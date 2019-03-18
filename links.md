@@ -63,6 +63,8 @@ write an entire blog post about.
 * [Evolution of a PHP developer](https://medium.com/@DonnaInsolita/the-evolution-of-php-developer-4d3c2fdfa1ae) in code snippets.
 * [Picking the best string interpolation](https://www.tomasvotruba.cz/blog/2018/10/11/hi-my-name-is-tom-conctat-vs-in-sprintf-vs-in-string-variables/).
 * Instantly upgrade PHP applications with [rector](https://github.com/RectorPHP/Rector)
+* A great walkthrough on how to [Fine-Tune Your OpCache Settings](https://tideways.com/profiler/blog/fine-tune-your-opcache-configuration-to-avoid-caching-suprises)
+* An [explanation of different OpCache settings](https://www.scalingphpbook.com/blog/2014/02/14/best-zend-opcache-settings.html)
 
 
 # Symfony
