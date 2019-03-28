@@ -238,6 +238,7 @@ write an entire blog post about.
 * [Java will kill your startup. PHP will save it.](https://medium.com/@alexkatrompas/java-will-kill-your-startup-php-will-save-it-f3051968145d): Why architecture + design > language + tools.
 * [How to be technical leader](https://medium.com/a-software-engineer/being-a-technical-leader-5284548f7749).
 * [Don't create a sense of urgency, foster a sense of purpose](https://medium.com/@kimber_lockhart/don-t-create-a-sense-of-urgency-foster-a-sense-of-purpose-724e309ecdb0).
+* Make your job ads suck less - [Anatomy of a good job ad](http://www.nerdhold.com/coder/2017/11/21/anatomy-job-ad/)
 
 
 # Jokes
