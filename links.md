@@ -83,6 +83,11 @@ write an entire blog post about.
 * [How to split your chucks with Webpack](https://hackernoon.com/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758).
 
 
+# Python
+
+* A curated list of [awesome-python](https://github.com/vinta/awesome-python) libraries and frameworks.
+* The Hitchhiker's Guide to Python [code style](https://docs.python-guide.org/writing/style/).
+
 # Security
 
 * The [PHP Security Advent Calendar](https://blog.ripstech.com/2017/php-security-advent-calendar/)
