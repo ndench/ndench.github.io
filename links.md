@@ -87,6 +87,7 @@ write an entire blog post about.
 
 * A curated list of [awesome-python](https://github.com/vinta/awesome-python) libraries and frameworks.
 * The Hitchhiker's Guide to Python [code style](https://docs.python-guide.org/writing/style/).
+* [Writing idiomatic python](https://medium.com/the-andela-way/idiomatic-python-coding-the-smart-way-cc560fa5f1d6)
 
 # Security
 
