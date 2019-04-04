@@ -104,6 +104,7 @@ write an entire blog post about.
     and a [free pluralsight course](https://www.pluralsight.com/courses/hack-yourself-first).
 * Troy Hunt on [Some Something Security](https://www.youtube.com/watch?v=gVXEwfH6FLc) at NDC 2017.
 * Troy Hunt on [building a reset password feature](https://www.troyhunt.com/everything-you-ever-wanted-to-know/).
+* [Privacy is the first step, the goal is data ownership](https://thetoolsweneed.com/privacy-is-just-the-first-step-the-goal-is-data-ownership/)
 
 
 # Software Engineering
