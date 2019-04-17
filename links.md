@@ -197,6 +197,7 @@ write an entire blog post about.
 * Use `git rebase --onto` to [rebase your feature branch from one branch to another](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another).
 * [GitHub tips and tricks](https://laravel-news.com/github-tips-tricks).
 * A great post from GitHub about [how to undo (almost) anything with Git](https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/).
+* Use the reflog to [recover deleted git commits](https://medium.com/@zaran.56/how-to-recover-restore-deleted-git-branch-5a068c07bed2).
 
 
 # Functional Programming
