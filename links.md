@@ -62,9 +62,12 @@ write an entire blog post about.
 * Simple examples for how to [refactor your legacy PHP code](https://hackernoon.com/refactor-your-php-legacy-code-real-projects-examples-da9edf03ff4b).
 * [Evolution of a PHP developer](https://medium.com/@DonnaInsolita/the-evolution-of-php-developer-4d3c2fdfa1ae) in code snippets.
 * [Picking the best string interpolation](https://www.tomasvotruba.cz/blog/2018/10/11/hi-my-name-is-tom-conctat-vs-in-sprintf-vs-in-string-variables/).
-* Instantly upgrade PHP applications with [rector](https://github.com/RectorPHP/Rector)
-* A great walkthrough on how to [Fine-Tune Your OpCache Settings](https://tideways.com/profiler/blog/fine-tune-your-opcache-configuration-to-avoid-caching-suprises)
-* An [explanation of different OpCache settings](https://www.scalingphpbook.com/blog/2014/02/14/best-zend-opcache-settings.html)
+* Instantly upgrade PHP applications with [rector](https://github.com/RectorPHP/Rector).
+* A great walkthrough on how to [Fine-Tune Your OpCache Settings](https://tideways.com/profiler/blog/fine-tune-your-opcache-configuration-to-avoid-caching-suprises).
+* An [explanation of different OpCache settings](https://www.scalingphpbook.com/blog/2014/02/14/best-zend-opcache-settings.html).
+* [Moving away from Laravel and magic](https://medium.freecodecamp.org/moving-away-from-magic-or-why-i-dont-want-to-use-laravel-anymore-2ce098c979bd).
+* [High volume tuning php-fpm on nginx](http://lance.bio/2019/02/25/high-volume-tuning-php-fpm-on-nginx/).
+* [How PHP environment variables actually work](https://mattallan.me/posts/how-php-environment-variables-actually-work/).
 
 
 # Symfony
@@ -158,7 +161,9 @@ write an entire blog post about.
 * Negotiate features instead of quality to meet deadline: [Don't make squirrel burgers](http://leewaterman.com/dont-make-squirrel-burgers/).
 * Matthias Nobackn on [When to use final classes](https://matthiasnoback.nl/2018/09/final-classes-by-default-why/).
 * [Immutable documentation](https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/) - splitting how-docs from why-docs
-* [7 Tips to write exceptions everyone will love](https://www.tomasvotruba.cz/blog/2018/09/17/7-tips-to-write-exceptions-everyone-will-love/) 
+* [7 Tips to write exceptions everyone will love](https://www.tomasvotruba.cz/blog/2018/09/17/7-tips-to-write-exceptions-everyone-will-love/).
+* Why you should spend time mastering your tools - [craftsmen know their tools](https://stitcher.io/blog/craftsmen-know-their-tools).
+* [Using hand written service containers](https://matthiasnoback.nl/2019/03/hand-written-service-containers/).
 
 
 # Testing
@@ -246,7 +251,8 @@ write an entire blog post about.
 * [Java will kill your startup. PHP will save it.](https://medium.com/@alexkatrompas/java-will-kill-your-startup-php-will-save-it-f3051968145d): Why architecture + design > language + tools.
 * [How to be technical leader](https://medium.com/a-software-engineer/being-a-technical-leader-5284548f7749).
 * [Don't create a sense of urgency, foster a sense of purpose](https://medium.com/@kimber_lockhart/don-t-create-a-sense-of-urgency-foster-a-sense-of-purpose-724e309ecdb0).
-* Make your job ads suck less - [Anatomy of a good job ad](http://www.nerdhold.com/coder/2017/11/21/anatomy-job-ad/)
+* Make your job ads suck less - [Anatomy of a good job ad](http://www.nerdhold.com/coder/2017/11/21/anatomy-job-ad/).
+* The difference between [deep and shallow work](https://blog.nuclino.com/slack-is-not-where-deep-work-happens).
 
 
 # Jokes
