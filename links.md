@@ -68,6 +68,7 @@ write an entire blog post about.
 * [Moving away from Laravel and magic](https://medium.freecodecamp.org/moving-away-from-magic-or-why-i-dont-want-to-use-laravel-anymore-2ce098c979bd).
 * [High volume tuning php-fpm on nginx](http://lance.bio/2019/02/25/high-volume-tuning-php-fpm-on-nginx/).
 * [How PHP environment variables actually work](https://mattallan.me/posts/how-php-environment-variables-actually-work/).
+* An [overview of the PHP compiler and JIT](https://blog.ircmaxell.com/2019/04/compilers-ffi.html).
 
 
 # Symfony
