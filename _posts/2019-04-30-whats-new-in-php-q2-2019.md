@@ -12,7 +12,7 @@ The biggest news recently is the development of PHP 7.4 and 8.0!
 ## Language News
 
 PHP 7.4 and 8.0 are both being [developed in parallel](https://externals.io/message/103862) with a
-number of of really great features already implemented.
+number of really great features already implemented.
 
 ### PHP 7.4 Features
 
@@ -24,10 +24,12 @@ are some rew ones:
 
 Currently, PHP is missing some really core object-oriented behaviours:
 
-Contravariance: replacing an object with it's parent without breaking anything (widening type
-parameters)
-Covariance: Replace an object with it's children without breaking anything (tightening type
-parameters)
+* Contravariance
+    * replacing an object with it's parent without breaking anything 
+    * widening type parameters
+* Covariance
+    * replace an object with it's children without breaking anything 
+    * tightening type parameters
 
 Fortunately, this feature is coming in 7.4, here are some examples from 
 [the rfc](https://wiki.php.net/rfc/covariant-returns-and-contravariant-parameters):
@@ -143,11 +145,13 @@ Currently, all the following result in unexpected behaviour:
 <?php
 
 $a = array_fill(-2, 3, true);
+
 $b = [-2 => true, true, true];
-$c = [-2 => true, true, true];
-$d[-2] = true;
-$d[] = true;
-$d[] = true;
+
+$c = []
+$c[-2] = true;
+$c[] = true;
+$c[] = true;
 ```
 
 The keys following the negative number start at 0 and increment from there, ie. they skip the next
@@ -304,7 +308,7 @@ not to pass in untrusted data. Here is an example from the [laravel blog
 post](https://blog.laravel.com/unique-rule-sql-injection-warning) on the issue:
 
 ```
-Rule::unique('users')->ignore($user->id)
+Rule::unique('users')->ignore($user->id);
 ```
 
 If instead of using `$user->id` in the above function call, you use some user provided data, then
@@ -348,7 +352,7 @@ so you must now be using 5.6 or above. While this is absolutely great news that 
 raising the bar, we should keep in mind that version 5.6 has been unsupported since the beginning of
 the year. Let's hope they will soon enforce a minimum supported version!
 
-### Symfony get's push capabilities
+### Symfony gets push capabilities
 
 Symfony has released the [Mercure
 component](https://symfony.com/blog/symfony-gets-real-time-push-capabilities) which allows
