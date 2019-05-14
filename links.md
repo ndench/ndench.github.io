@@ -180,8 +180,8 @@ write an entire blog post about.
 # DevOps
 
 * A post explaining [Terraform loops and if statements](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9).
-* How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line).
 * Overview of [Terraform 0.12](https://www.hashicorp.com/blog/terraform-0-1-2-preview).
+* An into [tutorial to CloudFormation](https://blog.boltops.com/2018/02/14/aws-cloudformation-declarative-infrastructure-code-tutorial).
 
 
 # Databases
@@ -273,6 +273,7 @@ write an entire blog post about.
 * How to [effectively work from home](https://watirmelon.blog/2018/09/07/three-years-of-working-from-home/).
 * 8 steps to [fail as an engineering manager](https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a).
 * [JetBrains - State of the developer ecosystem 2018](https://www.jetbrains.com/research/devecosystem-2018).
+* How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line).
 
 
 # Tutorials
