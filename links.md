@@ -165,6 +165,8 @@ write an entire blog post about.
 * [7 Tips to write exceptions everyone will love](https://www.tomasvotruba.cz/blog/2018/09/17/7-tips-to-write-exceptions-everyone-will-love/).
 * Why you should spend time mastering your tools - [craftsmen know their tools](https://stitcher.io/blog/craftsmen-know-their-tools).
 * [Using hand written service containers](https://matthiasnoback.nl/2019/03/hand-written-service-containers/).
+* Martin Fowler on [is quality sofwnare worth the cost?](https://martinfowler.com/articles/is-quality-worth-cost.html).
+* Interesting points about the [downsides of fluent interfaces](https://ocramius.github.io/blog/fluent-interfaces-are-evil/).
 
 
 # Testing
