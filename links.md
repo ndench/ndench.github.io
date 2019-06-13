@@ -276,6 +276,7 @@ write an entire blog post about.
 * 8 steps to [fail as an engineering manager](https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a).
 * [JetBrains - State of the developer ecosystem 2018](https://www.jetbrains.com/research/devecosystem-2018).
 * How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line).
+* A rather long article about [how to be great](https://blog.stephsmith.io/how-to-be-great/).
 
 
 # Tutorials
