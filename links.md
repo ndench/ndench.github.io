@@ -198,6 +198,7 @@ write an entire blog post about.
 * Want to "level up your PhpStorm game"? Check out [phpstorm.tips](http://phpstorm.tips). 
     A collection of small tips and tricks you can use to get better at PhpStorm.
 * Some more [PhpStorm tips for power users](https://www.stitcher.io/blog/phpstorm-tips-for-power-users).
+* Some tips to [improve PhpStorm performance](https://stitcher.io/blog/phpstorm-performance).
 * Ever thought the MAN pages were too hard to understand, or just took too long to read? Check out the 
     [TL;DR man pages](https://laravel-news.com/tldr-pages).  A cli program which summarises the man pages for you.
 * Some really fun [programming tutorials and challenges](https://www.hackerrank.com).
