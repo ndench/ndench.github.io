@@ -258,6 +258,7 @@ write an entire blog post about.
 * Make your job ads suck less - [Anatomy of a good job ad](http://www.nerdhold.com/coder/2017/11/21/anatomy-job-ad/).
 * The difference between [deep and shallow work](https://blog.nuclino.com/slack-is-not-where-deep-work-happens).
 * [How to hire the best developers](https://hackernoon.com/how-to-hire-the-best-developers-3ac0fa4e3f39).
+* Watch out for [the fear cycle](https://www.michaelnygard.com/blog/2015/07/the-fear-cycle/).
 
 
 # Jokes
