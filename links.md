@@ -69,6 +69,7 @@ write an entire blog post about.
 * [High volume tuning php-fpm on nginx](http://lance.bio/2019/02/25/high-volume-tuning-php-fpm-on-nginx/).
 * [How PHP environment variables actually work](https://mattallan.me/posts/how-php-environment-variables-actually-work/).
 * An [overview of the PHP compiler and JIT](https://blog.ircmaxell.com/2019/04/compilers-ffi.html).
+* [PHP in 2019](https://stitcher.io/blog/php-in-2019) - an answer to "A fractal of bad design".
 
 
 # Symfony
@@ -167,6 +168,11 @@ write an entire blog post about.
 * [Using hand written service containers](https://matthiasnoback.nl/2019/03/hand-written-service-containers/).
 * Martin Fowler on [is quality sofwnare worth the cost?](https://martinfowler.com/articles/is-quality-worth-cost.html).
 * Interesting points about the [downsides of fluent interfaces](https://ocramius.github.io/blog/fluent-interfaces-are-evil/).
+* [Understanding the SOLID principles](https://bootsity.com/php/understanding-the-solid-principles-of-software-engineering).
+* [Vertical slice architecture](https://jimmybogard.com/vertical-slice-architecture/).
+* [The KISS principle explained](https://thevaluable.dev/kiss-principle-explained/).
+* [What is a binary tree?](https://frederickvanbrabant.com/post/2019-05-10-binary-trees/).
+* [Using the command pattern to refactor legacy code](https://geekytomato.com/command-pattern-for-legacy-code-refactoring/).
 
 
 # Testing
