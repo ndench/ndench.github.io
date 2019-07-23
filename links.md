@@ -70,6 +70,9 @@ write an entire blog post about.
 * [How PHP environment variables actually work](https://mattallan.me/posts/how-php-environment-variables-actually-work/).
 * An [overview of the PHP compiler and JIT](https://blog.ircmaxell.com/2019/04/compilers-ffi.html).
 * [PHP in 2019](https://stitcher.io/blog/php-in-2019) - an answer to "A fractal of bad design".
+* [GitHub actions for PHP developers](https://stefanzweifel.io/posts/github-actions-for-php-developers/).
+* [Comparing Symfony to vanilla PHP](https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html).
+* [Controlling time in tests](https://freek.dev/1378-a-package-to-control-the-flow-of-time).
 
 
 # Symfony
