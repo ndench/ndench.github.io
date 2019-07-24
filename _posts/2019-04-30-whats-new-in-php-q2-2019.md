@@ -199,6 +199,9 @@ However, we are now in a place where the performance of PHP can no longer be imp
 
 #### Arrow functions v2
 
+**Update**
+Arrow function have actually been accepted for 7.4!
+
 [Arrow functions](https://wiki.php.net/rfc/arrow_functions_v2) are finally coming to PHP! They will
 dramatically improve the syntax of closures from this:
 
