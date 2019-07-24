@@ -73,6 +73,9 @@ write an entire blog post about.
 * [GitHub actions for PHP developers](https://stefanzweifel.io/posts/github-actions-for-php-developers/).
 * [Comparing Symfony to vanilla PHP](https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html).
 * [Controlling time in tests](https://freek.dev/1378-a-package-to-control-the-flow-of-time).
+* [Why you shouldn't have nullable paramters](https://afilina.com/null-hell).
+* [Clean-code-php](https://github.com/jupeter/clean-code-php) is Robert C. Martin's book 'Clean
+    Code' adapted for PHP.
 
 
 # Symfony
