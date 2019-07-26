@@ -1,5 +1,5 @@
 ---
-title: What's new in PHP land? - Q2 2019
+title: What's new in PHP land? - Q3 2019
 categories: brisphp
 tags: brisphp php news
 ---
@@ -249,3 +249,19 @@ ReactPHP has [release v1.0.0](https://www.lueck.tv/2019/announcing-reactphp-lts)
 with 24 months support. This is the first stable release of ReactPHP since it was created 7 years
 ago.
 
+### Symfony
+
+SymfonyCloud [moved from Early Access to General
+Availability](https://symfony.com/blog/symfonycloud-from-early-access-to-general-availability). This
+provides a "batteries included" platform to host your Symfony applications.
+
+### Laravel
+
+It's been a big quarter for Laravel:
+
+* [Laravel v6 was released](https://laravel-news.com/laravel-v6-announcement). This doesn't include
+    any paradigm shifting features, but instead moves Laravel to using SemVer which is amazing.
+* [Laravel Nova was released](https://medium.com/@taylorotwell/introducing-laravel-nova-7df0c9f67273).
+    Nova allows you to create beautiful customised admin panels with minimum effort.
+* [Laravel Vapor was released](https://mattstauffer.com/blog/introducing-laravel-vapor/) which
+    provides a serverless platform to host your Laravel applications.
