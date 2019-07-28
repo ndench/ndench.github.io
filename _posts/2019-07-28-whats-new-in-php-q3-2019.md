@@ -107,6 +107,39 @@ Since `??` is not valid syntax in PDO, there shouldn't be any BC breaks. However
 defined `??` as a custom operator in your database, you will need to pass `????` though PDO in order
 to use it.
 
+#### Spread operator in array expansion
+
+For a while now, you've been able to use the spread operator (`...`) to unpack an array and pass
+it's values into a function:
+
+```php
+
+<?php
+
+$arr = ['a', 'b', 'c'];
+
+// Takes a variable number of string arguments
+function foo(string ...$strings): void
+{
+    // Do something with the strings
+}
+
+// Pass each element in the array as a separate argument
+foo(...$arr);
+```
+
+Now you can do that inside an array, as a better alternative to `array_merge`:
+
+```php
+<?php
+
+$parts = ['apple', 'pear'];
+$fruits = ['banana', 'orange', ...$parts, 'watermelon'];
+// ['banana', 'orange', 'apple', 'pear', 'watermelon'];
+```
+
+See [the RFC](https://wiki.php.net/rfc/spread_operator_for_array) for details.
+
 #### Deprecations
 
 There has been a big list of deprecations in 7.4, allowing us to prepare for a lot of cruft being
@@ -264,4 +297,6 @@ It's been a big quarter for Laravel:
 * [Laravel Nova was released](https://medium.com/@taylorotwell/introducing-laravel-nova-7df0c9f67273).
     Nova allows you to create beautiful customised admin panels with minimum effort.
 * [Laravel Vapor was released](https://mattstauffer.com/blog/introducing-laravel-vapor/) which
-    provides a serverless platform to host your Laravel applications.
+    provides a [serverless
+    platform](https://divinglaravel.com/what-is-aws-lambda-and-how-laravel-vapor-uses-it) 
+    to host your Laravel applications.
