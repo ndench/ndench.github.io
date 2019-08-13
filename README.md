@@ -48,6 +48,7 @@ Vim as a PHP ide
 * https://github.com/kristijanhusak/neovim-config
 * https://robertbasic.com/blog/current-vim-setup-for-php-development/
 * https://spacevim.org/use-vim-as-a-php-ide/
+* https://github.com/neoclide/coc.nvim
 
 handling large files 
 * https://www.sitepoint.com/performant-reading-big-files-php/
