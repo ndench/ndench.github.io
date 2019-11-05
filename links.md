@@ -76,6 +76,9 @@ write an entire blog post about.
 * [Why you shouldn't have nullable paramters](https://afilina.com/null-hell).
 * [Clean-code-php](https://github.com/jupeter/clean-code-php) is Robert C. Martin's book 'Clean
     Code' adapted for PHP.
+* [How to complete thousands of missing @var annotations in a day](https://www.tomasvotruba.cz/blog/2019/07/29/how-we-completed-thousands-of-missing-var-annotations-in-a-day/).
+* [How to create a custom PhpStorm inspection](https://medium.com/@claudsonm/mysql-reserved-words-checker-for-laravel-migrations-on-phpstorm-2d34b5fcde75).
+* [10 rules to code like NASA in interpreted languages](https://dev.to/xowap/10-rules-to-code-like-nasa-applied-to-interpreted-languages-40dd).
 
 
 # Symfony
@@ -179,6 +182,9 @@ write an entire blog post about.
 * [The KISS principle explained](https://thevaluable.dev/kiss-principle-explained/).
 * [What is a binary tree?](https://frederickvanbrabant.com/post/2019-05-10-binary-trees/).
 * [Using the command pattern to refactor legacy code](https://geekytomato.com/command-pattern-for-legacy-code-refactoring/).
+* A great into into [functional core, imperative shell](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell).
+* [CyberChef](https://gchq.github.io/CyberChef/) is a great tool for complex data conversions.
+* To all the people that don't like static typing: [You already use types](https://www.swyx.io/writing/types-already/).
 
 
 # Testing
@@ -189,6 +195,7 @@ write an entire blog post about.
 * Improve your testing with [the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
 * [Testing strategy with the help of static analysis](https://www.phparch.com/2018/04/testing-strategy-with-the-help-of-static-analysis/).
 * An explanation of [exploratory testing](https://blog.usejournal.com/what-is-exploratory-testing-the-programmer-edition-881765411f2c).
+* [Is not writing tests unprofessional](https://matthiasnoback.nl/2019/09/is-not-writing-tests-unprofessional/).
 
 
 # DevOps
@@ -203,6 +210,7 @@ write an entire blog post about.
 * YouTube video about [How SQL databases came up with their algorithms](https://www.youtube.com/watch?v=wTPGW1PNy_Y).
 * [Safe database migrations operations](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) at Braintree.
 * A talk by Ondrej Mirtes on [zero downtime database migrations](https://www.youtube.com/watch?v=hMO63IC6R7c&feature=youtu.be).
+* [Conditional logic in MySQL with the CASE expression](https://www.helenanderson.co.nz/sql-server-case/).
 
 
 # Programming Tools
@@ -227,6 +235,7 @@ write an entire blog post about.
 * [Monads explained in C#](https://mikhail.io/2018/07/monads-explained-in-csharp-again/).
 * Super in-depth Haskell guide: [What I wish I knew when learning Haskell](http://dev.stephendiehl.com/hask/)
 * [Functional programming is a silly toy](https://medium.com/better-programming/fp-toy-7f52ea0a947e).
+* [Haskell for TypeScript developer](https://haskellfortypescriptdevs.fission.codes/).
 
 # Regex
 
@@ -245,6 +254,7 @@ write an entire blog post about.
 * A walkthrough for your [first open source PR](https://mattstauffer.com/blog/how-to-contribute-to-an-open-source-github-project-using-your-own-fork/).
 * Avoid disappointent by [makinig smaller pull requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/).
 * [A bitter guide to open source](https://medium.com/codezillas/a-bitter-guide-to-open-source-a8e3b6a3c1c4).
+* [The complicated economy to open source](https://www.vice.com/en_us/article/43zak3/the-internet-was-built-on-the-free-labor-of-open-source-developers-is-that-sustainable).
 
 
 # Design
@@ -255,6 +265,7 @@ write an entire blog post about.
 * [Optimistic UI](https://uxplanet.org/optimistic-1000-34d9eefe4c05) is a UI that assumes actions will be successful in order to make a smoother flow for users.
 * The journey of a dev moving from [semantic CSS to utility CSS](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/).
 * [How to create a good design as a developer](https://medium.com/plint-sites/how-to-create-a-good-design-as-a-developer-9240bb2e9c3d).
+* [Stop designing products for random people](https://uxdesign.cc/stop-designing-products-for-random-people-4734423cbfe6).
 
 # Development Processes
 
@@ -272,6 +283,8 @@ write an entire blog post about.
 * The difference between [deep and shallow work](https://blog.nuclino.com/slack-is-not-where-deep-work-happens).
 * [How to hire the best developers](https://hackernoon.com/how-to-hire-the-best-developers-3ac0fa4e3f39).
 * Watch out for [the fear cycle](https://www.michaelnygard.com/blog/2015/07/the-fear-cycle/).
+* [A micro-managers guide to chilling out](https://forge.medium.com/a-micro-managers-guide-to-chilling-out-8a12c8beac88).
+* How Etsy handles incidents: [Debriefing guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf).
 
 
 # Jokes
@@ -292,6 +305,7 @@ write an entire blog post about.
 * [JetBrains - State of the developer ecosystem 2018](https://www.jetbrains.com/research/devecosystem-2018).
 * How to use grep in vim: [Demystifying multi-file searches in Vim](https://seesparkbox.com/foundry/demystifying_multi_file_searches_in_vim_and_the_command_line).
 * A rather long article about [how to be great](https://blog.stephsmith.io/how-to-be-great/).
+* [Why loarning to code is so damn hard](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/).
 
 
 # Tutorials
