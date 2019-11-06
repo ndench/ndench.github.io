@@ -17,7 +17,7 @@ in the community and more features accepted into PHP 8.0.
 There are no new features going into PHP 7.4, and for very good reason. It's 
 going to be [released at the end of this month](https://wiki.php.net/todo/php74)!
 
-<div data-type="countdown" data-id="1555370" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/1555370/php-74-release" title="PHP 7.4 Release">PHP 7.4 Release</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+<div data-type="countdown" data-id="1557233" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/1557233/php-74-release" title="PHP 7.4 Release">PHP 7.4 Release</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
 
 I can't wait for the new version, my favourite new features are:
 
