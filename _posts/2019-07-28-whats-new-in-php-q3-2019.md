@@ -258,7 +258,8 @@ of WordPress sites).
 
 ### Framework trends
 
-Tomas Votruba tracks trends in PHP framework installations by pulling data from the Packagist API.
+[Tomas Votruba](https://www.tomasvotruba.cz/php-framework-trends/)
+tracks trends in PHP framework installations by pulling data from the Packagist API.
 It really is fascinating to see just how many downloads each framework gets.
 
 ![PHP framework trends]({{ "/assets/images/framework-trends-jul-2019.png" }})
