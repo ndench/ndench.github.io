@@ -125,6 +125,18 @@ function which could grant an attacker arbitrary code execution.
 A [post by SC Magazine](https://www.scmagazine.com/home/security-news/vulnerabilities/php-update-fixes-arbitrary-code-execution-flaw-9-other-bugs/)
 has more details.
 
+#### RCE through PATH_INO in php-fpm
+
+With a mis-configured php-fpm, it was possible to use a newline character (url encoded `%0a`)
+to break the PATH_INFO variable that nginx passes to php-fpm by unsetting it. This caused 
+php-fpm to read a different php file and if crafted properly could allow remote code execution.
+
+The "mis-configuration" of php-fpm is actually a fairly widely used configuration, documented in
+many places like StackOverflow and even the nginx docs. To fix the issue you can upgrade to the
+latest version of PHP or add some sanitisation to your nginx configuration.
+
+See [the bug report](https://bugs.php.net/bug.php?id=78599) for more info.
+
 ### Frameworks
 
 #### Wordpress
