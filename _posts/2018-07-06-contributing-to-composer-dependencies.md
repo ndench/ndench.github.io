@@ -4,7 +4,7 @@ categories: php
 tags: php composer open-source
 ---
 
-Sometimes you find an issue with one of your composer dependencies. You'd like ot fix it, but it
+Sometimes you find an issue with one of your composer dependencies. You'd like to fix it, but it
 can be difficult to test the changes within the context of your application because you have to
 constantly push to your fork and run another `composer update`.
 
