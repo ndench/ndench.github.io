@@ -96,7 +96,7 @@ There were 20 non-controversial changes proposed:
 * Promoting 7 Notices to Warnings
 * Promoting 5 Warnings to TypeError exceptions
 
-### PHP++
+### P++
 
 The idea was [floated in the internal mailing list](https://externals.io/message/106453)
 about creating a second "dialect" of PHP with some suggesting the name "P++". 
