@@ -4,5 +4,5 @@ categories: brisphp
 tags: brisphp php 
 ---
 
-- [me](https://slides.com/ndench/brisphp-news-q4-2019)
-- [Sam](https://docs.google.com/presentation/d/1tfICGg2nhqlO14KAECk8VeUxNSAo8QsWO5Ah1eJcnR4/edit?usp=sharing)
+- [me](http://slides.com/ndench/what-s-new-in-php-land-q1-2020)
+- [James](https://www.canva.com/design/DAD0_fCRRi0/DFV1JB-nx_6eCydufFZfUA/view?utm_content=DAD0_fCRRi0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#8)
