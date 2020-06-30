@@ -9,6 +9,11 @@ and at the start of every meetup I give a quick talk on recent news and
 other interesting things that have been happening in the PHP world.
 Recently, we've had an absolute ton of progress on PHP 8.0.
 
+In fact, there has been so much progress on PHP 8.0 that I am under
+no illusions on how the PHP core team kept entertained during COVID-19
+lockdows! I've selected my favourite and most important changes for this 
+post.
+
 ## PHP
 
 Jordi Boggiano released the latest [PHP Version Stats](https://blog.packagist.com/php-versions-stats-2020-1-edition/)
@@ -307,7 +312,10 @@ A few caveats:
 
 #### Type improvements
 
-[Mixed type RFC](https://wiki.php.net/rfc/mixed_type_v2) [Static return type RFC](https://wiki.php.net/rfc/static_return_type)
+[Mixed type RFC](https://wiki.php.net/rfc/mixed_type_v2) 
+
+[Static return type RFC](https://wiki.php.net/rfc/static_return_type)
+
 [Union type RFC](https://wiki.php.net/rfc/union_types_v2)
 
 There have been quite a few type improvements in PHP 8. We can now use union types, 
@@ -352,7 +360,9 @@ $puppy = $zara->breed();
 
 #### String functions
 
-[str_contains RFC](https://wiki.php.net/rfc/str_contains) [str_starts_with|str_ends_with RFC[(https://wiki.php.net/rfc/add_str_starts_with_and_ends_with_functions)
+[str_contains RFC](https://wiki.php.net/rfc/str_contains) 
+
+[str_starts_with & str_ends_with RFC](https://wiki.php.net/rfc/add_str_starts_with_and_ends_with_functions)
 
 It's only taken 25 years, but PHP finally has canonical functions to check if a string
 contains, starts with or ends with another string.
@@ -395,37 +405,128 @@ if (substr($haystack, -strlen($suffix)) == $suffix) {
 
 #### Exceptions
 
-* statement -> expression
-* non-capturing catches
+[Non-capturing catches RFC](https://wiki.php.net/rfc/non-capturing_catches)
 
-#### Others
+[Throw expression RFC](https://wiki.php.net/rfc/throw_expression)
 
-* get_debug_type
-* abstract method trait improvements
-* DateTime::createFromInterface
-* weak map
-* Trailing Comma in Parameter List
-* Correct signatures in magic methods
+There are also a couple of changes to to the way we can use exceptions.
+The ablility to catch an exception and ignore the actual exception object.
+This is useful when the type of the exception is enough information for you
+to determine how to handle it and you don't need the rest of the data contained
+in the exception object.
+
+```php
+<?php
+
+try {
+    changeImportantData();
+} catch (PermissionException $ex) {
+    echo "You don't have permission to do this";
+}
+```
+
+Internally, PHP thinks of different constructs as either "expressions" or "statements".
+There are some places that you're not allowed to use "statements", only expressions.
+Throwing exceptions has been considered a "statement" which means you aren't able
+to throw exceptions in certain places, like arrow functions and ternaries. So the
+following examples will work correctly as of PHP 8.0, but will throw a FatalError
+in previous versions.
+
+```php
+<?php
+
+$fn = fn() => throw new \Exception('oops');
+
+$value = isset($_GET['value'])
+    ? $_GET['value']
+    : throw new \InvalidArgumentException('value not set');
+```
+
+#### get_debug_type()
+
+`get_debug_type()` is an alternative to `gettype()` which actually
+returns something useful:
+
+<table>
+<thead>
+<tr><th>Value</th><th>get_debug_type()</th><th>gettype()</th></tr>
+</thead>
+<tbody>
+<tr><td>0</td><td>int</td><td>integer</td></tr>
+<tr><td>0.1</td><td>float</td><td>double</td></tr>
+<tr><td>true</td><td>bool</td><td>boolean</td></tr>
+<tr><td>"hello world"</td><td>string</td><td></td></tr>
+<tr><td>[]</td><td>array</td><td></td></tr>
+<tr><td>null</td><td>null</td><td>NULL</td></tr>
+<tr><td>new Foo\Bar()</td><td>Foo\Bar</td><td>object</td></tr>
+<tr><td>new class() {}</td><td>class@anonymous</td><td>object</td></tr>
+<tr><td>tmpfile()</td><td>resource (stream)</td><td>resource</td></tr>
+<tr><td>curl_init()</td><td>resource (curl)</td><td>resource</td></tr>
+<tr><td>curl_close($ch)</td><td>resource (closed)</td><td></td></tr>
+</tbody>
+</table>
+
+
+#### Weakmaps
+
+[RFC](https://wiki.php.net/rfc/weak_maps)
+
+In PHP 7.4 we got support for Weak References. This allows us to store
+a reference to some object without preventing the garbage collector from
+deleting it. Weak References on their own are of limited usefulness, so
+now we have WeakMaps which allow us to build caches:
+
+```php
+<?php
+
+class Foo 
+{
+    private WeakMap $cache;
+ 
+    public function getSomethingWithCaching(object $obj): object
+    {
+        return $this->cache[$obj]
+           ??= $this->computeSomethingExpensive($obj);
+    }
+}
+```
+
+This is very useful for the likes of ORMs, which often implment
+their own caching.
+
 
 #### Breaking changes
 
-* TypeErrors on internal functions
-* Reclassified engine warnings
-* @ no longer works for fatal errors
-* Concat precedence  deprecation notice is no longer raised. 
-* Fatal errors on method signatures
-* Type errors for arithmetic & bitwise operators
-`CurlHandle` class objects replace curl handle
+There are been quite a few breaking changes in 8.0, ranging from
+won't affect much at all, to will probably make it hard to upgrade
+(especially for older projects). Here are some that I think are
+worth mentioning:
+
+* Ensure correct signatures of magic methods [RFC](https://wiki.php.net/rfc/magic-methods-signature)
+    * Until now, it was possible to declare `public function __get(string $name): void`
+* Method signatures in abstract methods defined in traits are now enforced [RFC](https://wiki.php.net/rfc/abstract_trait_method_validation)
+    * Previously, you could completely change the method signature of an abstract method that comes from a trait
+* `curl_*()` methods accept and return `CurlHandle` objects instead of `resource`
+    * Use `$handle !== false` instead of `!is_resource($handle)`
+    * This snuck through without an RFC...
 
 
 ## Composer 2
 
+Composer version 2 is just around the corner. The alpha2 version is out and you can test it.
+It comes with a few great new features, here are my favourites.
 
-## Frameworks
+* Faster download times
+    * All downloads now run in parallel and offer quite a speed boost.
+* Platform check - ensure the current platform is supported
+    * `vendor/composer/platform_check.php` is created during `composer install`
+    * It ensures the the platform running the code is suppored (ie. has correct PHP version and extensions)
+* `--ignore-platform-req [req]` to selectively ignore specfic platform requirements instead of all of them
+    * eg. Ignore only the PHP version requirement and nothing else with `--ignore-platform-req php`
+* `--dry-run` for add/remove
+    * This was previously only available on update
+* PEAR repository type is removed
+    * You can no longer install custom PEAR packages
+    * You can still install PEAR packages hosted on php.net
 
-### Laravel 7
-
-### Code igniter 4
-
-### Yii 3
-
+You can find out more about [Composer v2 here](https://php.watch/articles/composer-2).
