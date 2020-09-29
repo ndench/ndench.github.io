@@ -50,7 +50,7 @@ server {
     listen 80;
     server_name _;
     if ($http_x_forwarded_proto != "https") {
-        rewrite ^(.*)$ https://$server_name$REQUEST_URI permanent;
+        return 301 https://$host$request_uri;
     }
 }
 ```
@@ -87,7 +87,7 @@ server {
     listen 80;
     server_name _;
     if ($http_x_forwarded_proto = "http") {
-        rewrite ^(.*)$ https://$server_name$REQUEST_URI permanent;
+        return 301 https://$host$request_uri;
     }
 }
 ```
