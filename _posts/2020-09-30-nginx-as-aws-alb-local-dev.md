@@ -281,3 +281,5 @@ from any tools, and your dev environment is one step closer to production!
 * [Setting X-Forwarded-* headers on nginx](https://plone.lucidsolutions.co.nz/web/reverseproxyandcache/setting-nginx-http-x-forward-headers-for-reverse-proxy)
 * [Adding a trusted CA in Arch Linux](https://wiki.archlinux.org/index.php/User:Grawity/Adding_a_trusted_CA_certificate)
 * [Adding a trusted CA in Ubuntu](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
+* [@michael_timbs](https://twitter.com/michael_timbs) and [@patrickdorival](https://twitter.com/patrickdorival) from the
+  [PHP Australia Community](https://phpaustralia.org/)
