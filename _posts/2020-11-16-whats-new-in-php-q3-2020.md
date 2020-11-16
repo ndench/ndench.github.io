@@ -16,7 +16,8 @@ PHP 8.0 is less than 2 weeks away, it will go live on the
 
 ![PHP 8.0 Release Schedule]({{ "/assets/images/php8-release.png" }})
 
-Additionally, there is also less than 2 weeks of security support left for PHP 7.2.
+Additionally, security support left for PHP 7.2 ends on the 
+[30th of November](https://www.php.net/supported-versions.php)
 Updating to 7.3 or 7.4 is quite seamless, so make sure you do ASAP!
 
 ![PHP Version Support]({{ "/assets/images/php-version-support-2020-11.png" }})
@@ -116,6 +117,7 @@ positional paramater after a named one. A simple example from the RFC shows the 
 
 ```php
 <?php
+
 // Without named parameters
 htmlspecialchars($string, ENT_COMPAT | ENT_HTML401, 'UTF-8', false);
 
@@ -211,6 +213,7 @@ contains a bunch of cool new features:
 
     ```php
     <?php
+
     // Old way
     $users = factory(App\User::class, 3)->make();
 
