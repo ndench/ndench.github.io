@@ -182,7 +182,8 @@ write an entire blog post about.
 * [The KISS principle explained](https://thevaluable.dev/kiss-principle-explained/).
 * [What is a binary tree?](https://frederickvanbrabant.com/post/2019-05-10-binary-trees/).
 * [Using the command pattern to refactor legacy code](https://geekytomato.com/command-pattern-for-legacy-code-refactoring/).
-* A great into into [functional core, imperative shell](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell).
+* A great intro into [functional core, imperative shell](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell).
+* An article from DoorDash about [using functional core, imperitive shell in practice](https://doordash.engineering/2022/07/26/functional-core-imperative-shell-using-structured-concurrency-to-write-maintainable-grpc-endpoints-in-kotlin/)
 * [CyberChef](https://gchq.github.io/CyberChef/) is a great tool for complex data conversions.
 * To all the people that don't like static typing: [You already use types](https://www.swyx.io/writing/types-already/).
 
